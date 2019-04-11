@@ -19,17 +19,17 @@ export class DataService {
     const cardDay1 = {
         "ID" : 1,
         "TITLE" : "DAY 1",
-        "HEADING" : "Dynamic blocks",
-        "DESC" : `HTML Fundamentals and basic tags`,
+        "HEADING" : "Java Fundamentals and Data Type",
+        "DESC" : `Java Fundamentals and Data Type`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Hello World", 
+                "ID":1, "TITLE": "Hello World, File and Public class Naming Convention And Basics of Main Method", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example1`,
             },
 
             {  
-                "ID":2, "TITLE": "Heading Tags", 
+                "ID":2, "TITLE": "User defined class concept, Object initialization, Accessing data member of class, Default value for data memeber and local variable ", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example2`,
             }
         ],
