@@ -15,6 +15,46 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+
+    // DAY - 2
+    const cardDay2 = {
+        "ID" : 2,
+        "TITLE" : "DAY 2",
+        "HEADING" : "Encapuslation, Member Function And Access Modifier",
+        "DESC" : `Encapuslation, Member Function And Access Modifier`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Securing data member applying Encapuslation. (Data Security, Data Hiding, Appling logic on member function.)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example1`,
+            },
+
+            {  
+                "ID":2, "TITLE": "Create Calculator class with add, subtract, multiply, division method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example2`,
+            },
+
+            {  
+                "ID":3, "TITLE": "Working with function overloading, and variable number of parameters into function.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example3`,
+            },
+
+            
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Working with Member function signature. (AccessModifer, NonAccessModifer, ReturnType, FunctionName, InputParam, ExceptionHandling)"},
+            {"ID":2, "TITLE": "Securing data member applying Encapuslation. (Data Security, Data Hiding, Appling logic on member function.)"},
+            {"ID":3, "TITLE": "Create Calculator class with add, subtract, multiply, division method."},
+            {"ID":4, "TITLE": "Update Calcuator functionlity by reading input interactively."},
+            {"ID":5, "TITLE": "Working with access modifier. (public, protected, default and private)"},
+            {"ID":6, "TITLE": "Working with function overloading, overload the add() method of Calculator class."},
+            {"ID":7, "TITLE": "Working with variable number of parameter. "},
+            {"ID":8, "TITLE": "Working with overloading and variable number of parmater together."},
+        ]
+    };
+    CARD_LIST.push(cardDay2);
+
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
