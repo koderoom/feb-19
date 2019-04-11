@@ -9,8 +9,8 @@ export class DataService {
   FEATURED_ANGULAR_LIST:any[];
 
   constructor() { 
-    const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-demo`;
-    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-demo`;
+    const BASE_URL_DEMO = `https://koderoom.github.io/feb-19-demo`;
+    const BASE_URL_SOURCE = `https://github.com/koderoom/feb-19-demo`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
@@ -25,14 +25,12 @@ export class DataService {
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "Hello World", 
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/1.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/1.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example1`,
             },
 
             {  
                 "ID":2, "TITLE": "Heading Tags", 
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/3.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/3.html`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example2`,
             }
         ],
 
