@@ -35,10 +35,14 @@ export class DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {  
-                "ID":1, 
-                "TITLE": "Hello World", 
-            },
+            {"ID":1, "TITLE": "Hello World and Java Program with one public class."},
+            {"ID":2, "TITLE": "Hello World and Java Program with more than one class."},
+            {"ID":3, "TITLE": "User Define Class, Concept, Data Member / Instance Member"},
+            {"ID":4, "TITLE": "Object Initialization for UserDefine Class using `new` keyword."},
+            {"ID":5, "TITLE": "Access Data Member of user define class using dot operator."},
+            {"ID":6, "TITLE": "Working with default value of data member of User defined class and local member of function."},
+            {"ID":7, "TITLE": "Read an input from command line."},
+            {"ID":8, "TITLE": "Print Right triangle star."},
         ]
     };
     CARD_LIST.push(cardDay1);

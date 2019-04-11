@@ -91,6 +91,15 @@
                       </span>
                   </li>
               </ul>
+
+              <div class="card-body">
+                <p class="card-text h6 text-justify">ASSIGMENTS</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li *ngFor="let demoRef of iobj.ASSIGNMENT_LIST"  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                    <span [innerHTML]="demoRef.TITLE"></span>
+                </li>
+              </ul>
           </div>
       </div>
 
