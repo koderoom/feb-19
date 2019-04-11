@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class AppConstantsService {
 
-    TITLE = "AUG-18";
+    TITLE = "AUG-19";
     BG_LIST:any[] = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, 
                      {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, 
                      {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, 
