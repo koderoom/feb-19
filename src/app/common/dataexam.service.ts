@@ -153,17 +153,10 @@ export class DataexamService {
 
     this.B1LIST = [
       {"id":4,"rollid":"180840320004","show":true},
-      {"id":27,"rollid":"180840320027","show":true},
-      {"id":84,"rollid":"180840320084","show":true},
     ]; 
 
     this.B2LIST = [
       {"id":20,"rollid":"180840320020","show":true},
-      {"id":100,"rollid":"180840320100","show":true},
-      {"id":20,"rollid":"180840320026","show":true},
-      {"id":63,"rollid":"180840320063","show":true},
-      {"id":46,"rollid":"180840320046","show":true},
-      {"id":98,"rollid":"180840320098","show":true},
     ];
   }
 }
