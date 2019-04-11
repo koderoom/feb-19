@@ -27,16 +27,19 @@ export class DataService {
             {  
                 "ID":1, "TITLE": "Securing data member applying Encapuslation. (Data Security, Data Hiding, Appling logic on member function.)", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/T5tqP3eu8Jw`
             },
 
             {  
                 "ID":2, "TITLE": "Create Calculator class with add, subtract, multiply, division method.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/h8Sndrbakz0`
             },
 
             {  
                 "ID":3, "TITLE": "Working with function overloading, and variable number of parameters into function.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/mllLtnGxqgE`
             },
 
             
