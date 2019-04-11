@@ -1,8 +1,8 @@
 # Aug Homee
 
 ```
-    ng build --prod --base-href "https://koderoom.github.io/aug-18/"
-    npx ngh --dir=dist/Aug18Home
+    ng build --prod --base-href "https://koderoom.github.io/feb-19/"
+    npx ngh --dir=dist/Feb19Home
 ```
 
 # ANGULAR ECLIPSE
