@@ -9,8 +9,8 @@ export class DataService {
   FEATURED_ANGULAR_LIST:any[];
 
   constructor() { 
-    const BASE_URL_DEMO = `https://koderoom.github.io/aug-18-webdemo`;
-    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-18-webdemo`;
+    const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-demo`;
+    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-demo`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
@@ -33,24 +33,13 @@ export class DataService {
                 "ID":2, "TITLE": "Heading Tags", 
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day1/3.html`,
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/3.html`,
-            },
+            }
+        ],
 
+        "ASSIGNMENT_LIST" : [
             {  
-                "ID":3, "TITLE": "Styling Heading Tags", 
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/4.html`,
-            },
-
-            {  
-                "ID":4, "TITLE": "Division Tag and CSS height property", 
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/5.html`,
-            },
-
-            {  
-                "ID":5, "TITLE": "Image tag", 
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/7.html`,
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/blob/master/day1/7.html`,
+                "ID":1, 
+                "TITLE": "Hello World", 
             },
         ]
     };
