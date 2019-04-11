@@ -31,6 +31,11 @@ export class DataService {
             {  
                 "ID":2, "TITLE": "User defined class concept, Object initialization, Accessing data member of class, Default value for data memeber and local variable ", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example2`,
+            },
+
+            {  
+                "ID":3, "TITLE": "Day-1 Classroom Recording", 
+                "YOUTUBE_LINK" : `https://youtu.be/FpIjy7fi0H0`,
             }
         ],
 
