@@ -5,7 +5,7 @@
     npx ngh --dir=dist/Feb19Home
 ```
 
-# ANGULAR ECLIPSE
+# ANGULAR ECLIPSEE
 ```
     ng build --delete-output-path=false --output-path=.. --base-href "/test" --deploy-url "/test/"
 ```
