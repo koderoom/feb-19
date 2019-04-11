@@ -20,8 +20,8 @@ export class DataService {
     const cardDay2 = {
         "ID" : 2,
         "TITLE" : "DAY 2",
-        "HEADING" : "Encapuslation, Member Function And Access Modifier",
-        "DESC" : `Encapuslation, Member Function And Access Modifier`,
+        "HEADING" : "Encapuslation, Member Function and Access Modifier",
+        "DESC" : `Encapuslation, Member Function and Access Modifier`,
 
         "DEMO_LIST" : [
             {  
