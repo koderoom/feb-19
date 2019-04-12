@@ -16,12 +16,55 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 3
+    const cardDay3 = {
+        "ID" : 3,
+        "TITLE" : "DAY 3",
+        "HEADING" : "Encapuslation, Member Function and Access Modifier",
+        "DESC" : `Encapuslation, Member Function and Access Modifier`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Securing data member applying Encapuslation. (Data Security, Data Hiding, Appling logic on member function.)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/T5tqP3eu8Jw`
+            },
+
+            {  
+                "ID":2, "TITLE": "Create Calculator class with add, subtract, multiply, division method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/h8Sndrbakz0`
+            },
+
+            {  
+                "ID":3, "TITLE": "Working with function overloading, and variable number of parameters into function.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/mllLtnGxqgE`
+            },
+
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Working with static member and static method of class."},
+            {"ID":2, "TITLE": "Accessing static member/method from different instance of class as global variable."},
+            {"ID":3, "TITLE": "Explaing public static void main()"},
+            {"ID":4, "TITLE": "Accessing static member from Member function."},
+            {"ID":5, "TITLE": "Accessing data member from Static Fucntion. (Not allowed)."},
+            {"ID":6, "TITLE": "Accessing static member/method using instance of class(Not Recommended)"},
+            {"ID":7, "TITLE": "Convert the Calculator class method to Static method."},
+            {"ID":8, "TITLE": "Working with constructor, Default Constructor and Zero Constructor."},
+            {"ID":9, "TITLE": "Parametrized and Overloaded constructor."},
+            {"ID":10, "TITLE": "Super Constructor and Constructor Chaining."},
+        ]
+    };
+    CARD_LIST.push(cardDay3);
+
     // DAY - 2
     const cardDay2 = {
         "ID" : 2,
         "TITLE" : "DAY 2",
-        "HEADING" : "Encapuslation, Member Function and Access Modifier",
-        "DESC" : `Encapuslation, Member Function and Access Modifier`,
+        "HEADING" : "Encapsulation, Member Function and Access Modifier",
+        "DESC" : `Encapsulation, Member Function and Access Modifier`,
 
         "DEMO_LIST" : [
             {  
