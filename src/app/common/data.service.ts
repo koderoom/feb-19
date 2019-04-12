@@ -20,26 +20,25 @@ export class DataService {
     const cardDay3 = {
         "ID" : 3,
         "TITLE" : "DAY 3",
-        "HEADING" : "Encapuslation, Member Function and Access Modifier",
-        "DESC" : `Encapuslation, Member Function and Access Modifier`,
+        "HEADING" : "Fundatmentals of Static Member, Static Function and Constructor",
+        "DESC" : `Fundatmentals of Static Member, Static Function and Constructor`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Securing data member applying Encapuslation. (Data Security, Data Hiding, Appling logic on member function.)", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example1`,
-                "YOUTUBE_LINK": `https://youtu.be/T5tqP3eu8Jw`
+                "ID":1, "TITLE": "Static Member, Static Function, Static as Global variable.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/G2kfnig_1d0`
             },
 
             {  
-                "ID":2, "TITLE": "Create Calculator class with add, subtract, multiply, division method.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example2`,
-                "YOUTUBE_LINK": `https://youtu.be/h8Sndrbakz0`
+                "ID":2, "TITLE": "Part-2 Accessing static member from Member Function", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/GbiEwh0BRGc`
             },
 
             {  
-                "ID":3, "TITLE": "Working with function overloading, and variable number of parameters into function.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/example3`,
-                "YOUTUBE_LINK": `https://youtu.be/mllLtnGxqgE`
+                "ID":3, "TITLE": "Eclipse basic overview.", 
+                "YOUTUBE_LINK": `https://youtu.be/StT__PIWbmo`
             },
 
         ],
