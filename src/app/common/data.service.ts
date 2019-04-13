@@ -43,13 +43,13 @@ export class DataService {
             },
 
             {  
-                "ID":4, "TITLE": "Reference and Value comparision of User Define Class", 
+                "ID":4, "TITLE": "Reference and Value comparision of User Define Class. Debugging additional.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example4`,
                 "YOUTUBE_LINK": `https://youtu.be/xBklivHE9tM`
             },
 
             {  
-                "ID":5, "TITLE": "Object equality for User Define Class using equals and hashcode method.", 
+                "ID":5, "TITLE": "Object equality for User Define Class using equals and hashcode method. Debugging additional.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example5`,
                 "YOUTUBE_LINK": `https://youtu.be/qgqpJnplXOI`
             },
@@ -67,7 +67,7 @@ export class DataService {
             {"ID":7, "TITLE": "Reference Comparision and Object Comparsion for User define class"},
             {"ID":8, "TITLE": "Object Equality : Object Class - equals() and hashCode() method."},
             {"ID":9, "TITLE": "Java Api Docs"},
-            {"ID":10, "TITLE": "Implement Bubble Sort in Java."},
+            {"ID":10, "TITLE": "Implement Bubble Sort in Java, with different approaches."},
         ]
     };
     CARD_LIST.push(cardDay4);
