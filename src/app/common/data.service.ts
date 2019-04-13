@@ -25,20 +25,33 @@ export class DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Static Member, Static Function, Static as Global variable.", 
+                "ID":1, "TITLE": "Fundamental of String, String Pool and Im-Mutable String Object", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example1`,
-                "YOUTUBE_LINK": `https://youtu.be/G2kfnig_1d0`
+                "YOUTUBE_LINK": `https://youtu.be/PNLWoT7DU6A`
             },
 
             {  
-                "ID":2, "TITLE": "Part-2 Accessing static member from Member Function", 
+                "ID":2, "TITLE": "String - Reference and Value Comparison", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example2`,
-                "YOUTUBE_LINK": `https://youtu.be/GbiEwh0BRGc`
+                "YOUTUBE_LINK": `https://youtu.be/XCI-oSmh0xo`
             },
 
             {  
-                "ID":3, "TITLE": "Eclipse basic overview.", 
-                "YOUTUBE_LINK": `https://youtu.be/StT__PIWbmo`
+                "ID":3, "TITLE": "Fundamental of Mutable and Immutable implementation with String and User Define Class. Debugging fundamental.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/-9XeqX7Uzyg`
+            },
+
+            {  
+                "ID":4, "TITLE": "Reference and Value comparision of User Define Class", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/xBklivHE9tM`
+            },
+
+            {  
+                "ID":5, "TITLE": "Object equality for User Define Class using equals and hashcode method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example5`,
+                "YOUTUBE_LINK": `https://youtu.be/qgqpJnplXOI`
             },
 
         ],
