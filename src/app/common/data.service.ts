@@ -16,6 +16,49 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 4
+    const cardDay4 = {
+        "ID" : 4,
+        "TITLE" : "DAY 4",
+        "HEADING" : "Fundamentals of Mutable and Im-Mubtable Object; Reference comparision and Value Comparision of Object",
+        "DESC" : `Fundamentals of Mutable and Im-Mubtable Object; Reference comparision and Value Comparision of Object`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Static Member, Static Function, Static as Global variable.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/G2kfnig_1d0`
+            },
+
+            {  
+                "ID":2, "TITLE": "Part-2 Accessing static member from Member Function", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/GbiEwh0BRGc`
+            },
+
+            {  
+                "ID":3, "TITLE": "Eclipse basic overview.", 
+                "YOUTUBE_LINK": `https://youtu.be/StT__PIWbmo`
+            },
+
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":0, "TITLE": "Working with Static Block and Init Block"},
+            {"ID":1, "TITLE": "Working with Mutable Object [User Define Class]"},
+            {"ID":2, "TITLE": "Working with ImMutable Object [String]"},
+            {"ID":3, "TITLE": "Revise String Pool"},
+            {"ID":4, "TITLE": "String str = `hello`;  Vs String str = new String(`hello`)"},
+            {"ID":5, "TITLE": "String vs StringBuilder vs StringBuffer"},
+            {"ID":6, "TITLE": "Reference Comparision and Object Comparision for String"},
+            {"ID":7, "TITLE": "Reference Comparision and Object Comparsion for User define class"},
+            {"ID":8, "TITLE": "Object Equality : Object Class - equals() and hashCode() method."},
+            {"ID":9, "TITLE": "Java Api Docs"},
+            {"ID":10, "TITLE": "Implement Bubble Sort in Java."},
+        ]
+    };
+    CARD_LIST.push(cardDay4);
+
     // DAY - 3
     const cardDay3 = {
         "ID" : 3,

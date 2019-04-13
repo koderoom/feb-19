@@ -9,5 +9,3 @@
 ```
     ng build --delete-output-path=false --output-path=.. --base-href "/test" --deploy-url "/test/"
 ```
-
-https://youtu.be/H5TS3hd9ktU
