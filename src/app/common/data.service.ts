@@ -42,6 +42,11 @@ export class DataService {
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/example3`,
                 "YOUTUBE_LINK": `https://youtu.be/vBac6D1Z3ZY`
             },
+
+            {  
+                "ID":4, "TITLE": "Generate bill in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/example4`,
+            },
         ],
 
         "ASSIGNMENT_LIST" : [
