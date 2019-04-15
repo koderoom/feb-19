@@ -9,6 +9,7 @@ export class DataService {
   FEATURED_ANGULAR_LIST:any[];
 
   constructor() { 
+    const BASE_URL = "https://koderoom.github.io";
     const BASE_URL_DEMO = `https://koderoom.github.io/feb-19-demo`;
     const BASE_URL_SOURCE = `https://github.com/koderoom/feb-19-demo`;
     const CARD_LIST = [];
@@ -52,7 +53,7 @@ export class DataService {
             {"ID":5, "TITLE": "What is Upcastinga and Downcasting?"},
             {"ID":6, "TITLE": "Difference between Abstract and Abstraction?"},
             {"ID":7, "TITLE": "How access-modifier and non-access modifier affects Inheritance?"},
-            {"ID":8, "TITLE": "Generate a bill in Java?", "IMG": `${BASE_URL_DEMO}/assets/bill.png`},
+            {"ID":8, "TITLE": "Generate a bill in Java?", "IMG": `${BASE_URL}/feb-19/assets/bill.png`},
         ]
     };
     CARD_LIST.push(cardDay5);
