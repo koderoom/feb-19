@@ -16,6 +16,47 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 5
+    const cardDay5 = {
+        "ID" : 5,
+        "TITLE" : "DAY 5",
+        "HEADING" : "Fundamentals of Inheritance, Overriding, Polymorphism, Upcastinga and Downcasting",
+        "DESC" : `Fundamentals of Inheritance, Overriding, Polymorphism, Upcastinga and Downcasting`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Fundamental of Inheritance and Overriding in Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/d4o8NEJQ49w`
+            },
+
+            {  
+                "ID":2, "TITLE": " Fundamental of Polymorphism in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/z4_sSU1-j2c`
+            },
+
+            {  
+                "ID":3, "TITLE": "Fundamental of Upcasting and Downcasting in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/vBac6D1Z3ZY`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":0, "TITLE": "What is Abstraction?"},
+            {"ID":1, "TITLE": "What is Inheritance?"},
+            {"ID":2, "TITLE": "What is Overriding?"},
+            {"ID":3, "TITLE": "Difference between Overriding and Overloading?"},
+            {"ID":4, "TITLE": "What is Polymorhism, Compiletime Polymorphism, Runtime Polymorphism?"},
+            {"ID":5, "TITLE": "What is Upcastinga and Downcasting?"},
+            {"ID":6, "TITLE": "Difference between Abstract and Abstraction?"},
+            {"ID":7, "TITLE": "How access-modifier and non-access modifier affects Inheritance?"},
+            {"ID":8, "TITLE": "Generate a bill in Java?", "IMG": `${BASE_URL_DEMO}/assets/bill.png`},
+        ]
+    };
+    CARD_LIST.push(cardDay5);
+
     // DAY - 4
     const cardDay4 = {
         "ID" : 4,
