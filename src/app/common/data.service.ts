@@ -16,6 +16,51 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 5
+    const cardDay6 = {
+        "ID" : 6,
+        "TITLE" : "DAY 6",
+        "HEADING" : "Fundamental of Exception Handling in Java.",
+        "DESC" : `Fundamental of Exception Handling in Java with Object Oriented Concept.`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Throwing and Catching Exception handling in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/d4o8NEJQ49w`
+            },
+
+            {  
+                "ID":2, "TITLE": "Catching ArrayIndexOutOfBoundException in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/z4_sSU1-j2c`
+            },
+
+            {  
+                "ID":3, "TITLE": "Catching NullPointerException in Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/vBac6D1Z3ZY`
+            },
+
+            {  
+                "ID":4, "TITLE": "Adding finally block while handling/catching Exceptoin.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example4`,
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":0, "TITLE": "What is Exception Handling?"},
+            {"ID":1, "TITLE": "What is Checked and UncheckedException?"},
+            {"ID":2, "TITLE": "Handle and Implement Arithmetic Execption"},
+            {"ID":3, "TITLE": "Handle and Implement ArrayIndexOutOfBound Execption?"},
+            {"ID":4, "TITLE": "Handle and Implement NullPointer Execption"},
+            {"ID":5, "TITLE": "Implement multiple catch block in Exception Handling."},
+            {"ID":6, "TITLE": "Implment finally block in Exception handling"},
+            {"ID":7, "TITLE": "Explain try, catch, finally, throw and throws"},
+            {"ID":8, "TITLE": "Explain and implment final"},
+        ]
+    };
+    CARD_LIST.push(cardDay6);
 
     // DAY - 5
     const cardDay5 = {
