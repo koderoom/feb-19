@@ -25,26 +25,27 @@ export class DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Throwing and Catching Exception handling in Java.", 
+                "ID":1, "TITLE": "Fundamental of Exception handling in Java. Throwing and Catching Exception.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example1`,
-                "YOUTUBE_LINK": `https://youtu.be/d4o8NEJQ49w`
+                "YOUTUBE_LINK": `https://youtu.be/Bi_XIYuG7Vc`
             },
 
             {  
                 "ID":2, "TITLE": "Catching ArrayIndexOutOfBoundException in Java.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example2`,
-                "YOUTUBE_LINK": `https://youtu.be/z4_sSU1-j2c`
+                "YOUTUBE_LINK": `https://youtu.be/MSoqL509WYE`
             },
 
             {  
                 "ID":3, "TITLE": "Catching NullPointerException in Java.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example3`,
-                "YOUTUBE_LINK": `https://youtu.be/vBac6D1Z3ZY`
+                "YOUTUBE_LINK": `https://youtu.be/5wID5ECpg6Y`
             },
 
             {  
                 "ID":4, "TITLE": "Adding finally block while handling/catching Exceptoin.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/BA5q8Zvb9zk`
             },
         ],
 
