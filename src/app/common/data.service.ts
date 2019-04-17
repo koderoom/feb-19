@@ -50,15 +50,27 @@ export class DataService {
             },
 
             {  
-                "ID":4, "TITLE": "Basics of #Constructor #SuperConstructor and #ConstructorChaining in #Java", 
+                "ID":5, "TITLE": "Basics of #Constructor #SuperConstructor and #ConstructorChaining in #Java", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example5`,
                 "YOUTUBE_LINK": `https://youtu.be/jCBmTKUFPYY`
             },
 
             {  
-                "ID":4, "TITLE": "Basics of #Constructor and #SuperConstructor with #Parameter in Java", 
+                "ID":6, "TITLE": "Basics of #Constructor and #SuperConstructor with #Parameter in Java", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example6`,
                 "YOUTUBE_LINK": `https://youtu.be/1JG3U75v8f4`
+            },
+
+            {  
+                "ID":7, "TITLE": "Initialize member of child class and parent class using constructor in java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example7`,
+                "YOUTUBE_LINK": `https://youtu.be/ZeIFLDJUDqw`
+            },
+
+            {  
+                "ID":8, "TITLE": "Constructor chain example with #abstract class in #java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example8`,
+                "YOUTUBE_LINK": `https://youtu.be/yTJdMJFwc6A`
             },
         ],
 
