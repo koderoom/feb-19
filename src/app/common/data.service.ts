@@ -63,15 +63,11 @@ export class DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":0, "TITLE": "What is Exception Handling?"},
-            {"ID":1, "TITLE": "What is Checked and UncheckedException?"},
-            {"ID":2, "TITLE": "Handle and Implement Arithmetic Execption"},
-            {"ID":3, "TITLE": "Handle and Implement ArrayIndexOutOfBound Execption?"},
-            {"ID":4, "TITLE": "Handle and Implement NullPointer Execption"},
-            {"ID":5, "TITLE": "Implement multiple catch block in Exception Handling."},
-            {"ID":6, "TITLE": "Implement finally block in Exception handling"},
-            {"ID":7, "TITLE": "Explain try, catch, finally, throw and throws"},
-            {"ID":8, "TITLE": "Explain and implment final"},
+            {"ID":0, "TITLE": "Implement PassByvalue and PassByReference."},
+            {"ID":1, "TITLE": "Implement PassByReference with String reference?"},
+            {"ID":2, "TITLE": "Implement PassByReference with Inheritance example"},
+            {"ID":3, "TITLE": "Implemenent Construtor Chaining."},
+            {"ID":4, "TITLE": "Implemenent Construtor Chaining with Parametrized Constructor."},
         ]
     };
     CARD_LIST.push(cardDay7);
