@@ -16,7 +16,68 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
-    // DAY - 5
+
+    // DAY - 7
+    const cardDay7 = {
+        "ID" : 7,
+        "TITLE" : "DAY 7",
+        "HEADING" : "Fundamental of Pass by value and Pass by Reference with Inhertiance, Polymorphism and Upcasting",
+        "DESC" : `Fundamental of Pass by value and Pass by Reference with Inhertiance, Polymorphism and Upcasting`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Basics and usage of #PassByValue in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/yxRUAoBtJ1Y`
+            },
+
+            {  
+                "ID":2, "TITLE": "Basics and usage of #PassByReference in #Java with User Define Class", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/ecQPu7XGe_0`
+            },
+
+            {  
+                "ID":3, "TITLE": "Basics of #PassByReference with #String and #StringBuffer", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/h73n6kggO0U`
+            },
+
+            {  
+                "ID":4, "TITLE": "Basics of #PassByReference with #inheritance #polymorphism and #upcasting", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/kavaZATmmp4`
+            },
+
+            {  
+                "ID":4, "TITLE": "Basics of #Constructor #SuperConstructor and #ConstructorChaining in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example5`,
+                "YOUTUBE_LINK": `https://youtu.be/jCBmTKUFPYY`
+            },
+
+            {  
+                "ID":4, "TITLE": "Basics of #Constructor and #SuperConstructor with #Parameter in Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/1JG3U75v8f4`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":0, "TITLE": "What is Exception Handling?"},
+            {"ID":1, "TITLE": "What is Checked and UncheckedException?"},
+            {"ID":2, "TITLE": "Handle and Implement Arithmetic Execption"},
+            {"ID":3, "TITLE": "Handle and Implement ArrayIndexOutOfBound Execption?"},
+            {"ID":4, "TITLE": "Handle and Implement NullPointer Execption"},
+            {"ID":5, "TITLE": "Implement multiple catch block in Exception Handling."},
+            {"ID":6, "TITLE": "Implement finally block in Exception handling"},
+            {"ID":7, "TITLE": "Explain try, catch, finally, throw and throws"},
+            {"ID":8, "TITLE": "Explain and implment final"},
+        ]
+    };
+    CARD_LIST.push(cardDay7);
+
+
+    // DAY - 6
     const cardDay6 = {
         "ID" : 6,
         "TITLE" : "DAY 6",
