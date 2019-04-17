@@ -80,6 +80,8 @@ export class DataService {
             {"ID":2, "TITLE": "Implement PassByReference with Inheritance example"},
             {"ID":3, "TITLE": "Implemenent Construtor Chaining."},
             {"ID":4, "TITLE": "Implemenent Construtor Chaining with Parametrized Constructor."},
+            {"ID":5, "TITLE": "Implment Constructor chaining with Initializing data member of base and child class"},
+            {"ID":6, "TITLE": "Implemenent Construtor Chaining using abstract class."},
         ]
     };
     CARD_LIST.push(cardDay7);
