@@ -16,6 +16,49 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 7
+    const cardDay8 = {
+        "ID" : 8,
+        "TITLE" : "DAY 8",
+        "HEADING" : "Singleton Pattern, Inheritance using Interface, and Collections Fundamental",
+        "DESC" : `Singleton Pattern, Inheritance using Interface, and Collections Fundamental`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Implement Singleton Pattern in Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day8/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/lPqWUg40uv8`
+            },
+
+            {  
+                "ID":2, "TITLE": "Basics of Serializable interface in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day8/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/ihn8TNvre1o`
+            },
+
+            {  
+                "ID":3, "TITLE": "Implement User Define Interface in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day8/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/C1GbfjlwDlw`
+            },
+
+            {  
+                "ID":4, "TITLE": "Java #Collections using #List and #ArrayList Demo.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/XKlfKqiIM4k`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":0, "TITLE": "Implement Singleton Pattern."},
+            {"ID":1, "TITLE": "Implement Uesr Define Interface?"},
+            {"ID":2, "TITLE": "Implement List of String, Number and User Define Class usinga ArrayList"},
+            {"ID":3, "TITLE": "Implemenent Multiple Try Catch Block"},
+            {"ID":4, "TITLE": "Implemenent Nested Try catch block"},
+            {"ID":5, "TITLE": "Implment TRY and Finally Block"},
+        ]
+    };
+    CARD_LIST.push(cardDay8);
 
     // DAY - 7
     const cardDay7 = {
