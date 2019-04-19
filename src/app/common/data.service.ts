@@ -57,9 +57,9 @@ export class DataService {
 
         "ASSIGNMENT_LIST" : [
             {"ID" : 0, "TITLE" : "Read and Write file using InputStream and OuputStream."},
-            {"ID" : 0, "TITLE" : "Read and Write file using FileReaer and FileWriter."},
-            {"ID" : 0, "TITLE" : "Read and Write file using BuffredInputStream and BufferedOutputStream"},
-            {"ID":0, "TITLE": "Read and Write file using BuffredReader and BufferedWriter"},
+            {"ID" : 1, "TITLE" : "Read and Write file using FileReaer and FileWriter."},
+            {"ID" : 2, "TITLE" : "Read and Write file using BuffredInputStream and BufferedOutputStream"},
+            {"ID":3, "TITLE": "Read and Write file using BuffredReader and BufferedWriter"},
         ]
     };
     CARD_LIST.push(cardDay91);
