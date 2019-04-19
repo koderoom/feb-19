@@ -16,7 +16,72 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
-    // DAY - 7
+
+    // DAY - 9
+    const cardDay9 = {
+        "ID" : 9,
+        "TITLE" : "DAY 9",
+        "HEADING" : "Java Collections Framework",
+        "DESC" : `Java Collections Framework`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Implement  #ArrayList and #LinkedList using #String Object in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/DUwD0JxaOSU`
+            },
+
+            {  
+                "ID":2, "TITLE": "Implement  #HashSet #LinkedHashSet and #TreeSet using #String in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/SxEtSNPJ-ns`
+            },
+
+            {  
+                "ID":3, "TITLE": "Implement  #HashMap #LinkedHashMap and #TreeMap using #String Object in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/0E-XEWzpClk`
+            },
+
+            {  
+                "ID":4, "TITLE": "Implement  #ArrayList #HashMap using wrapper object #Integer in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/ogoCE3iALMY`
+            },
+
+            {  
+                "ID":5, "TITLE": " Implement  #ArrayList  using User Define Object in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example5`,
+                "YOUTUBE_LINK": `https://youtu.be/S-0z8X9onJo`
+            },
+
+            {  
+                "ID":6, "TITLE": "Implement  #HashSet  using User Define Object in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example5`,
+                "YOUTUBE_LINK": `https://youtu.be/ZYJDJQO0LWA`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Expalin List, ArrayList, LinkedList"},
+            {"ID" : 0, "TITLE" : "Expalin Set, HashSet, LinkedHashSet, TreeSet"},
+            {"ID" : 0, "TITLE" : "Expalin Map, HashMap, LinkedHashMap, TreeMap"},
+            {"ID":0, "TITLE": "Implement  #ArrayList and #LinkedList using #String Object in #Java"},
+            {"ID":1, "TITLE": "Implement  #HashSet #LinkedHashSet and #TreeSet using #String in #Java"},
+            {"ID":2, "TITLE": "Implement  #HashMap #LinkedHashMap and #TreeMap using #String Object in #Java"},
+            {"ID":3, "TITLE": "Implement  #ArrayList and #LinkedList using #Integer Object in #Java"},
+            {"ID":4, "TITLE": "Implement  #HashSet #LinkedHashSet and #TreeSet using #Integer in #Java"},
+            {"ID":5, "TITLE": "Implement  #HashMap #LinkedHashMap and #TreeMap using #Integer Object in #Java"},
+            {"ID":3, "TITLE": "Implement  #ArrayList and #LinkedList using #UserDefine Object in #Java"},
+            {"ID":4, "TITLE": "Implement  #HashSet #LinkedHashSet and #TreeSet using #UserDefine Object in #Java"},
+            {"ID":5, "TITLE": "Implement  #HashMap #LinkedHashMap and #TreeMap using #UserDeine Object in #Java"},
+            {"ID":5, "TITLE": "Sort Objects of ArrayList."},
+        ]
+    };
+    CARD_LIST.push(cardDay9);
+
+
+    // DAY - 8
     const cardDay8 = {
         "ID" : 8,
         "TITLE" : "DAY 8",
@@ -44,7 +109,7 @@ export class DataService {
 
             {  
                 "ID":4, "TITLE": "Java #Collections using #List and #ArrayList Demo.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/example4`,
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day8/example4`,
                 "YOUTUBE_LINK": `https://youtu.be/XKlfKqiIM4k`
             },
         ],
