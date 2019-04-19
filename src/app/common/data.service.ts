@@ -16,6 +16,53 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 9
+    const cardDay91 = {
+        "ID" : 10,
+        "TITLE" : "DAY 9 - Part 2",
+        "HEADING" : "Java IO - Input/Output",
+        "DESC" : `Java IO - Input/Output`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "#Read file using #FileInputStream in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/pbnY97ZBSMg`
+            },
+
+            {  
+                "ID":2, "TITLE": "#Read file using #FileReader in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/3E-M3e4ty8Q`
+            },
+
+            {  
+                "ID":3, "TITLE": "#Write file using #FileOutputStream in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example7`,
+                "YOUTUBE_LINK": `https://youtu.be/01882du9UKM`
+            },
+
+            {  
+                "ID":4, "TITLE": "#Write file using #FileWriter in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example7`,
+                "YOUTUBE_LINK": `https://youtu.be/ONkGUPSsXLo`
+            },
+
+            {  
+                "ID":5, "TITLE": "#Read and #Write file using #BufferedReader and #BufferedWriter in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day9/example8`,
+                "YOUTUBE_LINK": `https://youtu.be/iNSEX9IOqO4`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Read and Write file using InputStream and OuputStream."},
+            {"ID" : 0, "TITLE" : "Read and Write file using FileReaer and FileWriter."},
+            {"ID" : 0, "TITLE" : "Read and Write file using BuffredInputStream and BufferedOutputStream"},
+            {"ID":0, "TITLE": "Read and Write file using BuffredReader and BufferedWriter"},
+        ]
+    };
+    CARD_LIST.push(cardDay91);
 
     // DAY - 9
     const cardDay9 = {
