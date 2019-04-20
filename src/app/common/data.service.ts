@@ -17,6 +17,41 @@ export class DataService {
     const FEATURED_ANGULAR_LIST = [];
 
     // DAY - 10
+    const cardDay102 = {
+        "ID" : 12,
+        "TITLE" : "DAY 10 - Part 3 - Generate Bill",
+        "HEADING" : "How to generate bill using #string in #java?",
+        "DESC" : `How to generate bill using #string in #java?`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Part-1 How to #Generate #Bill using #String in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/RcAT4qAnni0`
+            },
+
+            {  
+                "ID":2, "TITLE": "Part-2 How to #Generate #Bill using #String in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/J96FTZz_wi4`
+            },
+
+            {  
+                "ID":3, "TITLE": " Utility String functions to generate bill in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/L9yH2e2aAj0`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Geneate bill in Java"},
+        ]
+    };
+    CARD_LIST.push(cardDay102);
+
+
+    
+    // DAY - 10
     const cardDay101 = {
         "ID" : 12,
         "TITLE" : "DAY 10 - Part 2",
