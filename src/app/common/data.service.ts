@@ -16,6 +16,48 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 10
+    const cardDay101 = {
+        "ID" : 12,
+        "TITLE" : "DAY 10 - Part 2",
+        "HEADING" : "Java IO - Input/Output Package",
+        "DESC" : `Java IO - Input/Output Package`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Read input from #console using #BufferedReader in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/GeZ1LvESO-o`
+            },
+
+            {  
+                "ID":2, "TITLE": "Read input from #Console using #Scanner class in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/6bM0-zfCoDo`
+            },
+
+            {  
+                "ID":3, "TITLE": "Read a #File using #Scanner in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example4`,
+                "YOUTUBE_LINK": `https://youtu.be/SGW3IjNVwbc`
+            },
+
+            {  
+                "ID":4, "TITLE": "Write into #Terminal and #File using #PrintWriter class in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example5`,
+                "YOUTUBE_LINK": `https://youtu.be/3famlph5owM`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Sort an ArrayList of String"},
+            {"ID" : 1, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
+            {"ID" : 2, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
+            {"ID":3, "TITLE": "Create an HashSet with unique user define data type object"},
+            {"ID":4, "TITLE": "Create an TreeSet with sorted unique user define data type object"},
+        ]
+    };
+    CARD_LIST.push(cardDay101);
 
     // DAY - 10
     const cardDay10 = {
