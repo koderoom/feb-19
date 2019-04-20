@@ -50,11 +50,11 @@ export class DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID" : 0, "TITLE" : "Sort an ArrayList of String"},
-            {"ID" : 1, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
-            {"ID" : 2, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
-            {"ID":3, "TITLE": "Create an HashSet with unique user define data type object"},
-            {"ID":4, "TITLE": "Create an TreeSet with sorted unique user define data type object"},
+            {"ID" : 0, "TITLE" : "Read input from terminal using BufferedReader"},
+            {"ID" : 1, "TITLE" : "Read input from terminal using Scanner"},
+            {"ID" : 2, "TITLE" : "Read file using Scanner."},
+            {"ID":3, "TITLE": "Writer into terminal using PrintWriter."},
+            {"ID":4, "TITLE": "Write into file using PrintWriter."},
         ]
     };
     CARD_LIST.push(cardDay101);
