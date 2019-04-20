@@ -16,6 +16,56 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+
+    // DAY - 10
+    const cardDay10 = {
+        "ID" : 11,
+        "TITLE" : "DAY 10 - Part 1",
+        "HEADING" : "Java Collections - Comparable and Comparator",
+        "DESC" : `Java Collections - Comparable and Comparator`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Sort an #ArrayList of String in #Java #Collection", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/nQB6WWD-A74`
+            },
+
+            {  
+                "ID":2, "TITLE": "#Sort an #ArrayList of User Define DataType using #Collections in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/YyQmFk4jR3s`
+            },
+
+            {  
+                "ID":3, "TITLE": "#Sort an #ArrayList using #Comparator and #Collections in #Java", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/shzxaBvTe-E`
+            },
+
+            {  
+                "ID":4, "TITLE": "Create a #HashSet of User Define DataType with #unique object.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/Hez3WPcPu60`
+            },
+
+            {  
+                "ID":5, "TITLE": "Create #TreeSet of User Define DataType using #Comparable in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/pvOnZqgGO3I`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Sort an ArrayList of String"},
+            {"ID" : 1, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
+            {"ID" : 2, "TITLE" : "Sort an ArrayList of User Define DataType using Comparable"},
+            {"ID":3, "TITLE": "Create an HashSet with unique user define data type object"},
+            {"ID":4, "TITLE": "Create an TreeSet with sorted unique user define data type object"},
+        ]
+    };
+    CARD_LIST.push(cardDay10);
+
     // DAY - 9
     const cardDay91 = {
         "ID" : 10,
