@@ -652,13 +652,32 @@ export class DataService {
 
 
     /** FEATURE LIST ANGULAR */
-    const featuredAngular1= {
-        "ID" : 5,
-        "TITLE" : "SPA using Angular",
-        "SHOW" : true,
-        "DEMO_LINK" : `https://koderoom.github.io/hello-angular/`
-    };
+    const featuredAngular1= { "ID" : 1,"TITLE" : "Generate Bill", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RcAT4qAnni0`};
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
+
+    const featuredAngular2= { "ID" : 2,"TITLE" : "Buffered Reader Demo","SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/GeZ1LvESO-o`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular2);
+
+    const featuredAngular3= { "ID" : 3,"TITLE" : "Scanner Demo","SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/6bM0-zfCoDo`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular3);
+
+    const featuredAngular4= { "ID" : 4,"TITLE" : "PrintWriter Demo","SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/3famlph5owM`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular4);
+
+    const featuredAngular5= { "ID" : 5,"TITLE" : "ArrayList & Comparable", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/YyQmFk4jR3s`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular5);
+
+    const featuredAngular6= { "ID" : 6,"TITLE" : "ArrayList & Comparator", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/shzxaBvTe-E`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular6);
+
+    const featuredAngular7= { "ID" : 7,"TITLE" : "Singleton in Java", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/lPqWUg40uv8`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular7);
+
+    const featuredAngular8= { "ID" : 8,"TITLE" : "Pass by Reference", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/ecQPu7XGe_0`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular8);
+
+    const featuredAngular9= { "ID" : 9,"TITLE" : "Pass by Ref & Inheritance", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/kavaZATmmp4`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular9);
 
 
 
