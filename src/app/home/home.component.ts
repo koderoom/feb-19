@@ -53,4 +53,8 @@ export class HomeComponent implements OnInit {
     this.bgRef = bgRef;
   }
 
+  public toggleAssignment(item): void {
+      item.showAssignment = !item.showAssignment;
+  } 
+
 }
