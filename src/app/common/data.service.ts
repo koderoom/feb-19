@@ -20,7 +20,7 @@ export class DataService {
     const cardDay11 = {
         "ID" : 13,
         "TITLE" : "Day-11",
-        "HEADING" : "Socket Programming & Thread Fundmetnal & Generate Bill - Part3 ",
+        "HEADING" : "Socket Programming & Thread Fundmetnal & Generate Bill - Part3 & Part4 ",
         "DESC" : `Socket Programming & Thread Fundmetnal`,
 
         "DEMO_LIST" : [
