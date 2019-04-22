@@ -25,6 +25,12 @@ export class DataService {
 
         "DEMO_LIST" : [
             {  
+                "ID":0, "TITLE": "Part-4 How to #Generate #Bill, Seperate data and print logic.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/9pbRMx_xgD0`
+            },
+
+            {  
                 "ID":1, "TITLE": "Part-3 How to #Generate #Bill - Making line item dynamic and interactive.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
                 "YOUTUBE_LINK": `https://youtu.be/J96FTZz_wi4`
@@ -81,6 +87,12 @@ export class DataService {
                 "ID":3, "TITLE": "Part-3 How to #Generate #Bill - Making line item dynamic and interactive.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
                 "YOUTUBE_LINK": `https://youtu.be/xAd-NuEuVaU`
+            },
+
+            {  
+                "ID":31, "TITLE": "Part-4 How to #Generate #Bill, Seperate data and print logic.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/9pbRMx_xgD0`
             },
 
             {  
