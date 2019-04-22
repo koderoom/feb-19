@@ -16,6 +16,47 @@ export class DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 11
+    const cardDay11 = {
+        "ID" : 13,
+        "TITLE" : "Day-11",
+        "HEADING" : "Socket Programming & Thread Fundmetnal & Generate Bill - Part3 ",
+        "DESC" : `Socket Programming & Thread Fundmetnal`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Part-3 How to #Generate #Bill - Making line item dynamic and interactive.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/J96FTZz_wi4`
+            },
+
+            {  
+                "ID":2, "TITLE": "Part-1 Fundamental of #Socket #Programming using #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day11/example1`,
+                "YOUTUBE_LINK": `https://youtu.be/bbtoVZW1s-k`
+            },
+
+            {  
+                "ID":3, "TITLE": "Part-2 Fundamental of #Socket #Programming in #Java, #chat between #client and #server.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day11/example2`,
+                "YOUTUBE_LINK": `https://youtu.be/dNl2Cj1W7B0`
+            },
+
+            {  
+                "ID":4, "TITLE": "Basics of #Multi #Threading in #Java.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day11/example3`,
+                "YOUTUBE_LINK": `https://youtu.be/1tcnBvBthLI`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID" : 0, "TITLE" : "Socket Programming in Java"},
+            {"ID" : 1, "TITLE" : "Multi threading fundamental"},
+        ]
+    };
+    CARD_LIST.push(cardDay11);
+
+    
     // DAY - 10
     const cardDay102 = {
         "ID" : 12,
@@ -37,7 +78,13 @@ export class DataService {
             },
 
             {  
-                "ID":3, "TITLE": " Utility String functions to generate bill in #Java.", 
+                "ID":3, "TITLE": "Part-3 How to #Generate #Bill - Making line item dynamic and interactive.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
+                "YOUTUBE_LINK": `https://youtu.be/xAd-NuEuVaU`
+            },
+
+            {  
+                "ID":4, "TITLE": " Utility String functions to generate bill in #Java.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day10/example6`,
                 "YOUTUBE_LINK": `https://youtu.be/L9yH2e2aAj0`
             },
