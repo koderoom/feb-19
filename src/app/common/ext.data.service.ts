@@ -23,9 +23,9 @@ export class ExtDataService extends DataService {
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
-        "TITLE" : "Html and CSS Overview",
-        "HEADING" : "Html and CSS Overview",
-        "DESC" : `Html and CSS Overview`,
+        "TITLE" : "Designing layout using Html and CSS",
+        "HEADING" : "Designing layout using Html and CSS",
+        "DESC" : `Designing layout using Html and CSS`,
 
         "DEMO_LIST" : [
             {  
