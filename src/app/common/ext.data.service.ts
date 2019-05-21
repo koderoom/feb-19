@@ -61,7 +61,8 @@ export class ExtDataService extends DataService {
             {  
                 "ID":6, "TITLE": "CSS Transition", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
+                "YOUTUBE_LINK": `https://youtu.be/TvWV_W7LzVQ`
             },
         ],
 
@@ -89,7 +90,7 @@ export class ExtDataService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RcAT4qAnni0`};
+    const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/TvWV_W7LzVQ`};
     AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular1);
 
     
