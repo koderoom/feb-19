@@ -46,9 +46,9 @@ export class HomeComponent implements OnInit {
     this.menuList = this.appConstatnts.MENU_LIST;
     this.selMenu = this.menuList[0];
 
-    this.CARD_LIST = this.data.CARD_LIST;
-    this.FEATURED_LIST = this.data.FEATURED_LIST;
-    this.FEATURED_ANGULAR_LIST = this.data.FEATURED_ANGULAR_LIST;
+    this.CARD_LIST = this.data.AWEBP_CARD_LIST;
+    this.FEATURED_LIST = this.data.AWEBP_FEATURED_LIST;
+    this.FEATURED_ANGULAR_LIST = this.data.AWEBP_FEATURED_ANGULAR_LIST;
 
     this.BASE_URL_DEMO = this.dataexam.BASE_URL_DEMO;
     this.EXAM_LIST = this.dataexam.EXAM_LIST;
