@@ -24,30 +24,20 @@ export class ExtDataService extends DataService {
     const cardDay1 = {
         "ID" : 1,
         "TITLE" : "DAY 1",
-        "HEADING" : "Java Fundamentals and Data Type",
-        "DESC" : `Java Fundamentals and Data Type`,
+        "HEADING" : "AWEBP Day 1",
+        "DESC" : `AWEBP Day 1`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Hello World, File and Public class Naming Convention And Basics of Main Method", 
+                "ID":1, "TITLE": "Demo 1", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example1`,
             },
 
-            {  
-                "ID":2, "TITLE": "User defined class concept, Object initialization, Accessing data member of class, Default value for data memeber and local variable ", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/example2`,
-            },
-
-            {  
-                "ID":3, "TITLE": "Day-1 Classroom Recording", 
-                "YOUTUBE_LINK" : `https://youtu.be/FpIjy7fi0H0`,
-            }
+            
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Hello World and Java Program with one public class."},
-            {"ID":2, "TITLE": "Hello World and Java Program with more than one class."},
-            {"ID":3, "TITLE": "User Define Class, Concept, Data Member / Instance Member"},
+            {"ID":1, "TITLE": "Assignment 1"},
         ]
     };
     AWEBP_CARD_LIST.push(cardDay1);
@@ -64,12 +54,10 @@ export class ExtDataService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Generate Bill", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RcAT4qAnni0`};
+    const featuredAngular1= { "ID" : 1,"TITLE" : "DEMO 1", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RcAT4qAnni0`};
     AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular1);
 
-    const featuredAngular2= { "ID" : 2,"TITLE" : "Buffered Reader Demo","SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/GeZ1LvESO-o`};
-    AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular2);
-
+    
 
     this.AWEBP_CARD_LIST = AWEBP_CARD_LIST;
     this.AWEBP_FEATURED_LIST = AWEBP_FEATURED_LIST;
