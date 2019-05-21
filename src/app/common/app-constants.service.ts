@@ -14,6 +14,11 @@ export class AppConstantsService {
                      {"ID":6, "BG": "bg-success", "BTN":"btn-success"}
                     ];
 
+    
+    MENU_LIST: any[] = [
+      {"ID":1, "MENU": "java", "DISPLAY":"JAVA"},
+      {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP"},
+    ]; 
 
     constructor() { }
 }

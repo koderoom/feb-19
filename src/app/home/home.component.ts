@@ -4,6 +4,7 @@ import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { ExtDataService } from 'src/app/common/ext.data.service';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -16,6 +17,8 @@ export class HomeComponent implements OnInit {
   title:string;
   bgRef:any;
   bgList:any;
+  menuList: any;
+  selMenu:any;
   faYoutube = faYoutube;
   randomIndex = Math.floor((Math.random() * 4));
 
@@ -31,6 +34,7 @@ export class HomeComponent implements OnInit {
     public appConstatnts: AppConstantsService,
     public data: ExtDataService,
     public dataexam: DataexamService,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit(): void {
@@ -38,6 +42,9 @@ export class HomeComponent implements OnInit {
 
     this.bgList = this.appConstatnts.BG_LIST;
     this.bgRef = this.bgList[this.randomIndex];
+
+    this.menuList = this.appConstatnts.MENU_LIST;
+    this.selMenu = this.menuList[0];
 
     this.CARD_LIST = this.data.CARD_LIST;
     this.FEATURED_LIST = this.data.FEATURED_LIST;
@@ -57,5 +64,21 @@ export class HomeComponent implements OnInit {
   public toggleAssignment(item): void {
       item.showAssignment = !item.showAssignment;
   } 
+
+
+  public toggleMenu(item): void {
+    this.selMenu = item;
+
+    if(item.MENU === 'awebp') {
+      this.CARD_LIST = this.data.AWEBP_CARD_LIST;
+      this.FEATURED_LIST = this.data.AWEBP_FEATURED_LIST;
+      this.FEATURED_ANGULAR_LIST = this.data.AWEBP_FEATURED_ANGULAR_LIST;
+    } else {
+      this.CARD_LIST = this.data.CARD_LIST;
+      this.FEATURED_LIST = this.data.FEATURED_LIST;
+      this.FEATURED_ANGULAR_LIST = this.data.FEATURED_ANGULAR_LIST;
+    }
+
+  }
 
 }
