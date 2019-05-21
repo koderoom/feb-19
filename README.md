@@ -5,6 +5,9 @@
     npx ngh --dir=dist/Feb19Home
 ```
 
+# GENERATE COMPOENENT
+* `ng g c awebp --skipTests=true`
+
 # ANGULAR ECLIPSEE
 ```
     ng build --delete-output-path=false --output-path=.. --base-href "/test" --deploy-url "/test/"
