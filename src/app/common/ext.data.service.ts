@@ -55,7 +55,8 @@ export class ExtDataService extends DataService {
             {  
                 "ID":5, "TITLE": "Horizontall divide screen into two sections, and center align children", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
+                "YOUTUBE_LINK": `https://youtu.be/TvWV_W7LzVQ`
             },
 
             {  
