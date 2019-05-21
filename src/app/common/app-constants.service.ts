@@ -16,8 +16,8 @@ export class AppConstantsService {
 
     
     MENU_LIST: any[] = [
-      {"ID":1, "MENU": "java", "DISPLAY":"JAVA"},
       {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP"},
+      {"ID":1, "MENU": "java", "DISPLAY":"JAVA"},
     ]; 
 
     constructor() { }
