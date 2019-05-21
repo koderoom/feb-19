@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService, ExtDataService } from '../common/data.service';
+import { DataService} from '../common/data.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { ExtDataService } from 'src/app/common/ext.data.service';
 
 
 @Component({
