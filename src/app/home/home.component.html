@@ -78,7 +78,7 @@
                   <li *ngFor="let demoRef of iobj.DEMO_LIST; let j=index;"  class="list-group-item list-group-item-action ">
                       
                     <div class="d-flex justify-content-between align-items-center">
-                        <a  #refel data-toggle="collapse" href="{{i+''+j}}" (click)="toggleCollapse(refel)" attr.data-id="{{i+'' +j}}" class="list-link" style="max-width: 90%">
+                        <a  #refel data-toggle="collapse" href="{{i+''+j}}" (click)="toggleCollapse(refel,  demoRef)" attr.data-id="{{i+'' +j}}" class="list-link" style="max-width: 90%">
                             <span [innerHTML]="demoRef.TITLE"></span>
                         </a>
                         
@@ -97,7 +97,7 @@
 
                     <div *ngIf="demoRef.YOUTUBE_LINK" style="margin-top:20px; margin:10px; width:95%;"  class="collapse" id="{{i+ '' + j  }}">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" [src]="getYoutubeLink(demoRef)" allowfullscreen></iframe>
+                            <!-- <iframe class="embed-responsive-item" [src]="getYoutubeLink(demoRef)" allowfullscreen></iframe> -->
                         </div>
                     </div>
                   </li>

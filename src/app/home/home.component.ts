@@ -68,9 +68,20 @@ export class HomeComponent implements OnInit, AfterViewInit {
     $('a').tooltip();
   }
 
-  public toggleCollapse(refel): void {
-    const dataId = refel.getAttribute('data-id');
-    $('#' + dataId).collapse('toggle');
+  public toggleCollapse(refel, demoRef): void {
+    if(demoRef.YOUTUBE_LINK) {
+      const dataId = refel.getAttribute('data-id');
+      $('#' + dataId).collapse('toggle');
+
+      const youcode = demoRef.YOUTUBE_LINK.replace('https://youtu.be/', '');
+      const sret = 'https://www.youtube.com/embed/' + youcode;
+
+      $('#' + dataId).children()[0].innerHTML = `
+            <iframe class="embed-responsive-item" src="${sret}" allowfullscreen></iframe>
+          `;
+    }
+    
+
   }
 
   public toggleDropdown(refel): void {
