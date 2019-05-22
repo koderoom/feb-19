@@ -99,7 +99,14 @@ export class ExtDataService extends DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Html Tags Fundatmental - Blocking and Non-Blocking."},
+            {"ID":1, "TITLE": "Link HTML and Javascript"},
+            {"ID":2, "TITLE": "Create applicatoin with Header and Body with static blocks"},
+            {"ID":3, "TITLE": "How to use CSS Overlow"},
+            {"ID":4, "TITLE": "How to add text block over an Image as background?"},
+            {"ID":6, "TITLE": "How to use #background, #background-color, #linear-gradient and #background-image?"},
+            {"ID":7, "TITLE": "Create and design #register page at the center of screen."},
+            {"ID":8, "TITLE": "How to fit an image within parent container and make image element interactive?"},
+            {"ID":9, "TITLE": "How to center align an image in HTML?"},
         ]
     };
     AWEBP_CARD_LIST.push(cardDay2);
