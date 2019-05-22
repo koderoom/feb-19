@@ -13,7 +13,7 @@
             </button>
             <div class="dropdown-menu p-0" aria-labelledby="dropdownMenu2" >
                 <ng-container *ngFor="let iobj of menuList">
-                    <button class="dropdown-item btn btn-sm {{bgRef.BG}} text-light" type="button" (click)="toggleMenu(iobj);">{{iobj.DISPLAY}}</button>
+                    <button class="dropdown-item btn btn-sm {{bgRef.BG}} text-light" type="button" (click)="toggleMenu(iobj, refeld);">{{iobj.DISPLAY}}</button>
                 </ng-container>
             </div>
         </div>
@@ -24,7 +24,7 @@
         </button>
         <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuTheme" >
             <ng-container *ngFor="let iobj of bgList">
-                <button  *ngIf="iobj != bgRef" class="dropdown-item btn btn-sm {{iobj.BG}} text-light" type="button" (click)="uilayout(iobj);">&nbsp;</button>
+                <button  *ngIf="iobj != bgRef" class="dropdown-item btn btn-sm {{iobj.BG}} text-light" type="button" (click)="uilayout(iobj, refele);">&nbsp;</button>
             </ng-container>
         </div>
         </div>

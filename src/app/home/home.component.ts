@@ -80,8 +80,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
             <iframe class="embed-responsive-item" src="${sret}" allowfullscreen></iframe>
           `;
     }
-    
-
   }
 
   public toggleDropdown(refel): void {
@@ -99,9 +97,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
   
   
-  uilayout(bgRef) {
+  uilayout(bgRef, refel) {
     bgRef = bgRef || this.bgList[this.randomIndex];
     this.bgRef = bgRef;
+
+    this.toggleDropdown(refel);
   }
 
   public toggleAssignment(item): void {
@@ -109,7 +109,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   } 
 
 
-  public toggleMenu(item): void {
+  public toggleMenu(item, refel): void {
     this.selMenu = item;
 
     if(item.MENU === 'awebp') {
@@ -122,6 +122,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       this.FEATURED_ANGULAR_LIST = this.data.FEATURED_ANGULAR_LIST;
     }
 
+    this.toggleDropdown(refel);
   }
 
 }
