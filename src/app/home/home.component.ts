@@ -10,7 +10,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { ExtDataService } from 'src/app/common/ext.data.service';
 import { ActivatedRoute } from '@angular/router';
-
+import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -41,7 +41,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     public appConstatnts: AppConstantsService,
     public data: ExtDataService,
     public dataexam: DataexamService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private sanitizer: DomSanitizer
   ) { }
 
   ngOnInit(): void {
@@ -66,6 +67,25 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public ngAfterViewInit(): void {
     $('a').tooltip();
   }
+
+  public toggleCollapse(refel): void {
+    const dataId = refel.getAttribute('data-id');
+    console.log(dataId, refel);
+
+    $('#' + dataId).collapse('toggle');
+  }
+
+  public getYoutubeLink(itemRef) {
+    if(itemRef.YOUTUBE_LINK) {
+      console.log(itemRef.YOUTUBE_LINK.replace('https://youtu.be/', ''));
+
+      const youcode = itemRef.YOUTUBE_LINK.replace('https://youtu.be/', '');
+      const sret = 'https://www.youtube.com/embed/' + youcode;
+
+      return this.sanitizer.bypassSecurityTrustResourceUrl(sret);
+    }
+  }
+  
   
   uilayout(bgRef) {
     bgRef = bgRef || this.bgList[this.randomIndex];
