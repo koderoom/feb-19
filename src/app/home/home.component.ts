@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+
+import 'bootstrap';
+import * as $ from 'jquery';
+
 import { DataService} from '../common/data.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
@@ -13,7 +17,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
   
   title:string;
   bgRef:any;
@@ -59,6 +63,9 @@ export class HomeComponent implements OnInit {
     this.TOPLIST = this.dataexam.B2LIST.concat(this.dataexam.B1LIST);
   }
 
+  public ngAfterViewInit(): void {
+    $('a').tooltip();
+  }
   
   uilayout(bgRef) {
     bgRef = bgRef || this.bgList[this.randomIndex];
