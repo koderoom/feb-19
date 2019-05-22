@@ -36,7 +36,7 @@
 
 
 <!--BLOCKS-->
-<div class="conainer-fluid">
+<div class="conainer-fluid" >
     <div class="row justify-content-center">
         
       <div class="col-md-3 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll; ">
@@ -61,7 +61,7 @@
       </div>
 
 
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="max-height: calc(100vh - 7rem); overflow: auto;">
           <div id="day{{iobj.ID}}" *ngFor="let iobj of CARD_LIST;let i = index" class="card bg-light mb-2 shadow-sm" [ngClass]="{'animated slower fadeIn' : i==0}">
               <h5 class="card-header text-light" [ngClass]="bgRef.BG">
                   {{iobj.TITLE}}
