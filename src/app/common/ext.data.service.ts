@@ -19,11 +19,95 @@ export class ExtDataService extends DataService {
     const AWEBP_FEATURED_LIST = [];
     const AWEBP_FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 2
+    const cardDay2 = {
+        "ID" : 2,
+        "TITLE" : "Day 2",
+        "HEADING" : "Applying the learning of HTML and CSS",
+        "DESC" : `Applying the learning of HTML and CSS`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":10, "TITLE": "Link external javascript with HTML and call js function onclick of button.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/7.html`,
+                "YOUTUBE_LINK": `https://youtu.be/XmaEYvyKf5o`
+            },
+
+            {  
+                "ID":9, "TITLE": "Create a web application with header and body section with multiple static block.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/6.html`,
+                "YOUTUBE_LINK": `https://youtu.be/GHO0cmBJDO4`
+            },
+
+            {  
+                "ID":8, "TITLE": "How to use CSS #overflow Property?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/5.html`,
+                "YOUTUBE_LINK": `https://youtu.be/OtmGDiXzg_A`
+            },
+
+            {  
+                "ID":7, "TITLE": "How to add text block over an Image as background?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
+                "YOUTUBE_LINK": `https://youtu.be/rKeSpZ-rDIE`
+            },
+
+            {  
+                "ID":6, "TITLE": "How to use linear-gradient for background color?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/41.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/41.html`,
+                "YOUTUBE_LINK": `https://youtu.be/2S8g151kd-g`
+            },
+
+            {  
+                "ID":5, "TITLE": "How to use #background, #background-color, #linear-gradient and #background-image?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
+                "YOUTUBE_LINK": `https://youtu.be/2S8g151kd-g`
+            },
+
+            {  
+                "ID":4, "TITLE": "Create and design #register page at the center of screen.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
+                "YOUTUBE_LINK": `https://youtu.be/vi9wjE5gSZw`
+            },
+
+            {  
+                "ID":3, "TITLE": "How to fit an image within parent container and make image element interactive?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/3.html`,
+                "YOUTUBE_LINK": `https://youtu.be/4LcdLboFn-k`
+            },
+
+            {  
+                "ID":2, "TITLE": "How to center align an image in HTML?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/1s7a-jETKqg`
+            },
+
+            {  
+                "ID":1, "TITLE": "Why doesn't height: 100% work to expand divs to the screen height?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/ZKOabqA3xDc`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Html Tags Fundatmental - Blocking and Non-Blocking."},
+        ]
+    };
+    AWEBP_CARD_LIST.push(cardDay2);
     
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
-        "TITLE" : "Designing layout using Html and CSS",
+        "TITLE" : "Day 1",
         "HEADING" : "Designing layout using Html and CSS",
         "DESC" : `Designing layout using Html and CSS`,
 
