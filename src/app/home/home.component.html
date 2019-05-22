@@ -80,8 +80,12 @@
                           <span [innerHTML]="demoRef.TITLE"></span>
                       </a> 
                       <span class="d-flex justify-content-end align-items-center">
-                          <a *ngIf="demoRef.SOURCE_LINK" target="_blank" href="{{demoRef.SOURCE_LINK}}" class="badge badge-info badge-pill mr-1">Source</a>
-                          <a *ngIf="demoRef.DEMO_LINK"  target="_blank" href="{{demoRef.DEMO_LINK}}" class="badge badge-primary badge-pill">Demo</a>
+                          <a *ngIf="demoRef.SOURCE_LINK" target="_blank" href="{{demoRef.SOURCE_LINK}}" class="badge badge-info badge-pill mr-1">
+                            <fa-icon [icon]="faFileCode"></fa-icon>
+                          </a>
+                          <a *ngIf="demoRef.DEMO_LINK"  target="_blank" href="{{demoRef.DEMO_LINK}}" class="badge badge-primary badge-pill">
+                            <fa-icon [icon]="faLaptopCode"></fa-icon>
+                          </a>
                           <a *ngIf="demoRef.YOUTUBE_LINK"  target="_blank" href="{{demoRef.YOUTUBE_LINK}}" class="badge badge-danger badge-pill">
                             <fa-icon [icon]="faYoutube"></fa-icon>
                           </a>

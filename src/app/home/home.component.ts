@@ -3,6 +3,7 @@ import { DataService} from '../common/data.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { ExtDataService } from 'src/app/common/ext.data.service';
 import { ActivatedRoute } from '@angular/router';
 
@@ -20,6 +21,8 @@ export class HomeComponent implements OnInit {
   menuList: any;
   selMenu:any;
   faYoutube = faYoutube;
+  faFileCode = faFileCode;
+  faLaptopCode = faLaptopCode;
   randomIndex = Math.floor((Math.random() * 4));
 
   CARD_LIST:any[];
