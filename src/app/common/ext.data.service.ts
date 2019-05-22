@@ -182,9 +182,14 @@ export class ExtDataService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
+    const featuredAngular3= { "ID" : 1,"TITLE" : "Static Web Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/GHO0cmBJDO4`};
+    AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular3);
+
+    const featuredAngular2= { "ID" : 1,"TITLE" : "Block over image", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/rKeSpZ-rDIE`};
+    AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular2);
+
     const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/TvWV_W7LzVQ`};
     AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular1);
-
     
 
     this.AWEBP_CARD_LIST = AWEBP_CARD_LIST;
