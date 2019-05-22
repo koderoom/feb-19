@@ -1,7 +1,10 @@
 <router-outlet></router-outlet>
 
-<div class="rounded text-light  animated pulse  slow" style="animation-iteration-count: 2; right:0; bottom:0; position: fixed; " [ngClass]="bgRef.BG">
-    <div style="font-size:large; font-weight: bold; font-family: monospace; padding: 10px; padding-right: 20px;">
-        Please Like and Subscribe 
+<div class="rounded text-light  animated pulse  slow" style="animation-iteration-count: 2; right:0; bottom:0; position: fixed; cursor: pointer !important;" [ngClass]="bgRef.BG">
+    <div style="font-size:large; font-weight: bold; font-family: monospace; padding: 10px; padding-right: 20px; ">
+        Please Like and Subscribe  
+        <span class="badge badge-danger badge-pill" style="">
+            <fa-icon [icon]="faYoutube"></fa-icon>
+        </span> 
     </div> 
 </div>
