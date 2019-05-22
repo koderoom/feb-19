@@ -70,14 +70,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   public toggleCollapse(refel): void {
     const dataId = refel.getAttribute('data-id');
-    console.log(dataId, refel);
-
     $('#' + dataId).collapse('toggle');
+  }
+
+  public toggleDropdown(refel): void {
+    $(refel).next().toggleClass('show');
   }
 
   public getYoutubeLink(itemRef) {
     if(itemRef.YOUTUBE_LINK) {
-      console.log(itemRef.YOUTUBE_LINK.replace('https://youtu.be/', ''));
 
       const youcode = itemRef.YOUTUBE_LINK.replace('https://youtu.be/', '');
       const sret = 'https://www.youtube.com/embed/' + youcode;

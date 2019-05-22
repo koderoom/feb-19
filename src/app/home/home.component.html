@@ -8,7 +8,7 @@
       
       <div class="col-4 text-light make-right">
         <div class="dropdown">
-            <button class="btn dropdown-toggle" [ngClass]="bgRef.BTN" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button #refeld (click)="toggleDropdown(refeld)" class="btn dropdown-toggle" [ngClass]="bgRef.BTN" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               {{selMenu.DISPLAY}}
             </button>
             <div class="dropdown-menu p-0" aria-labelledby="dropdownMenu2" >
@@ -19,10 +19,10 @@
         </div>
 
         <div class="dropdown">
-        <button class="btn dropdown-toggle" [ngClass]="bgRef.BTN" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button #refele (click)="toggleDropdown(refele)" class="btn dropdown-toggle" [ngClass]="bgRef.BTN" type="button" id="dropdownMenuTheme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Theme
         </button>
-        <div class="dropdown-menu p-0" aria-labelledby="dropdownMenu2" >
+        <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuTheme" >
             <ng-container *ngFor="let iobj of bgList">
                 <button  *ngIf="iobj != bgRef" class="dropdown-item btn btn-sm {{iobj.BG}} text-light" type="button" (click)="uilayout(iobj);">&nbsp;</button>
             </ng-container>
