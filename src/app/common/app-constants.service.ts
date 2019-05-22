@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -20,5 +21,13 @@ export class AppConstantsService {
       {"ID":1, "MENU": "java", "DISPLAY":"JAVA"},
     ]; 
 
-    constructor() { }
+    private SEL_BG_REF_OBJ = this.BG_LIST[0];
+    private SEL_BG_REF_OBJ_SOURCE = new BehaviorSubject<any>(this.SEL_BG_REF_OBJ);
+    public SEL_BG_REF_OBJ_AS_OBSERABLE = this.SEL_BG_REF_OBJ_SOURCE.asObservable();
+    
+    public constructor() { }
+
+    public updateSelBgRef(item): void {
+      this.SEL_BG_REF_OBJ_SOURCE.next(item);
+    }
 }

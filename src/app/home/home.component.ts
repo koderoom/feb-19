@@ -42,6 +42,7 @@ export class HomeComponent implements OnInit {
 
     this.bgList = this.appConstatnts.BG_LIST;
     this.bgRef = this.bgList[this.randomIndex];
+    this.appConstatnts.updateSelBgRef(this.bgRef);
 
     this.menuList = this.appConstatnts.MENU_LIST;
     this.selMenu = this.menuList[0];
