@@ -79,7 +79,7 @@ export class ExtDataService extends DataService {
             {  
                 "ID":3, "TITLE": "How to fit an image within parent container and make image element interactive?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
                 "YOUTUBE_LINK": `https://youtu.be/4LcdLboFn-k`
             },
 
