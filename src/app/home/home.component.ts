@@ -101,6 +101,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     bgRef = bgRef || this.bgList[this.randomIndex];
     this.bgRef = bgRef;
 
+    // update the observer
+    this.appConstatnts.updateSelBgRef(this.bgRef);
+
     this.toggleDropdown(refel);
   }
 
