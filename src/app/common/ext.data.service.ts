@@ -19,6 +19,66 @@ export class ExtDataService extends DataService {
     const AWEBP_FEATURED_LIST = [];
     const AWEBP_FEATURED_ANGULAR_LIST = [];
 
+
+    // DAY - 3
+    const cardDay3 = {
+        "ID" : 3,
+        "TITLE" : "Day 3",
+        "HEADING" : "Document Object and Client Side JavaScript",
+        "DESC" : `Document Object and Client Side JavaScript`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":6, "TITLE": "DOM operation, Add New Element/Node with dynamic value, reading data from Input Element. ", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/1Yq3wIQOPng`
+            },
+
+            {  
+                "ID":5, "TITLE": "DOM operation, Add New Element/Node with static value, using #document #cloneNode method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/i46tWyNkZXI`
+            },
+
+            {  
+                "ID":4, "TITLE": "DOM operation, Add New Node using #document #createElement method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/3USAMyO8ClI`
+            },
+
+            {  
+                "ID":3, "TITLE": "DOM operation, Update Element/Node and change the style of toolbar.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/ssY-rmB5TCo`
+            },
+
+            {  
+                "ID":2, "TITLE": "Fundamental of #document object in #JavaScript and its utility method.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/ZZgf6nSsI_U`
+            },
+
+            {  
+                "ID":1, "TITLE": "How to add #JavaScript in #HTML and invoke function onclick of HTML Element?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/r3577xqGzQU`
+            },
+            
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Link HTML and Javascript"},
+        ]
+    };
+    AWEBP_CARD_LIST.push(cardDay3);
+
+
     // DAY - 2
     const cardDay2 = {
         "ID" : 2,
