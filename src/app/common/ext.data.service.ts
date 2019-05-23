@@ -73,7 +73,11 @@ export class ExtDataService extends DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Link HTML and Javascript"},
+            {"ID":1, "TITLE": "Document Object Study"},
+            {"ID":2, "TITLE": "DOM Acesss Object"},
+            {"ID":3, "TITLE": "DOM Modify Object"},
+            {"ID":4, "TITLE": "DOM Add New Object"},
+            {"ID":5, "TITLE": "DOM Add Remove Object"},
         ]
     };
     AWEBP_CARD_LIST.push(cardDay3);
