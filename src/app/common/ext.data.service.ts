@@ -246,6 +246,9 @@ export class ExtDataService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
+    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Operation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/1Yq3wIQOPng`};
+    AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular4);
+
     const featuredAngular3= { "ID" : 1,"TITLE" : "Static Web Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/GHO0cmBJDO4`};
     AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular3);
 
