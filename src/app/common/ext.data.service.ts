@@ -30,9 +30,9 @@ export class ExtDataService extends DataService {
         "DEMO_LIST" : [
             {  
                 "ID":7, "TITLE": "Part 4 Add DOM operation to using #document and #jQuery in the Application.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/gfSDy7Tkta0`
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/3.html`,
+                "YOUTUBE_LINK": `https://youtu.be/kgXJXdMROB0`
             },
 
             {  
