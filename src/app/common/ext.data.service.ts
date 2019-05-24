@@ -20,6 +20,66 @@ export class ExtDataService extends DataService {
     const AWEBP_FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 4
+    const cardDay4 = {
+        "ID" : 4,
+        "TITLE" : "Day 4",
+        "HEADING" : "Bootstrap CSS Framework, Document Object and jQuery Library.",
+        "DESC" : `Bootstrap CSS Framework, Document Object and jQuery Library.`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":6, "TITLE": "Part 3 - Application layout design using CSS framework Bootstrap. (Add Input Box)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/gfSDy7Tkta0`
+            },
+
+            {  
+                "ID":5, "TITLE": "Part 2 - Application layout design using CSS framework Bootstrap. (Add Main Section)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/vwn__Ep7bvI`
+            },
+
+            {  
+                "ID":4, "TITLE": "Part 1 - Application layout design using CSS framework Bootstrap. (Add Navbar)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/87422PRleTQ`
+            },
+
+            {  
+                "ID":3, "TITLE": "How to add Bootstrap CSS framework into project and check linked successfully?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/B-oBbN1EQXQ`
+            },
+
+            {  
+                "ID":2, "TITLE": "How to DOM operation using jQuery?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/yPDz58gXgmI`
+            },
+
+            {  
+                "ID":1, "TITLE": "How to add jQuery into project, and cross check linked successfully?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/CtykJZ12VAA`
+            },
+
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "jQuery DOM Operation"},
+            {"ID":2, "TITLE": "Layout design using Bootstrap."},
+        ]
+    };
+    AWEBP_CARD_LIST.push(cardDay4);
+
+
     // DAY - 3
     const cardDay3 = {
         "ID" : 3,
