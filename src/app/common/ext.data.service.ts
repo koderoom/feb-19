@@ -50,13 +50,13 @@ export class ExtDataService extends DataService {
             },
 
             {  
-                "ID":2, "TITLE": "Post Preview and add dynamic block of image using Javascript.", 
+                "ID":2, "TITLE": "Part 2 - Post Preview and add dynamic block of image using Javascript.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
                 "YOUTUBE_LINK": `https://youtu.be/7WW4s00o5Hg`
             },
             {  
-                "ID":1, "TITLE": "Post Preview Image UI Simulation", 
+                "ID":1, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
                 "YOUTUBE_LINK": `https://youtu.be/ZDT7BiEBVBA`
