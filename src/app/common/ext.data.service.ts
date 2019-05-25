@@ -21,6 +21,36 @@ export class ExtDataService extends DataService {
 
 
     // DAY - 4
+    const cardDay5 = {
+        "ID" : 5,
+        "TITLE" : "Day 5",
+        "HEADING" : "Post Perview and Dymaick Block of Image",
+        "DESC" : `Post Perview and Dymaick Block of Image`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":2, "TITLE": "Post Preview and add dynamic block of image using Javascript.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/7WW4s00o5Hg`
+            },
+            {  
+                "ID":1, "TITLE": "Post Preview Image UI Simulation", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/ZDT7BiEBVBA`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "HTML Image Element, SRC Attribute, ObjectFit Style Attribute"},
+            {"ID":2, "TITLE": "URL, converting fileobject as url."},
+        ]
+    };
+    AWEBP_CARD_LIST.push(cardDay5);
+
+
+    // DAY - 4
     const cardDay4 = {
         "ID" : 4,
         "TITLE" : "Day 4",
