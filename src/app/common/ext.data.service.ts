@@ -29,6 +29,27 @@ export class ExtDataService extends DataService {
 
         "DEMO_LIST" : [
             {  
+                "ID":5, "TITLE": "Adding Like, Subscribe and Comment option for each block. (Adding icons with button)", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
+                "YOUTUBE_LINK": `https://youtu.be/OKEkZvygNlw`
+            },
+
+            {  
+                "ID":4, "TITLE": "Part 2 - Post Preview and add dynamic block of Video using Javascript.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/SeeVQQGASLA`
+            },
+
+            {  
+                "ID":3, "TITLE": "Part 1 - Post and Preview Video block UI Simulation.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/Dnhp-0IvR_8`
+            },
+
+            {  
                 "ID":2, "TITLE": "Post Preview and add dynamic block of image using Javascript.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
@@ -350,6 +371,9 @@ export class ExtDataService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
+    const featuredAngular5= { "ID" : 1,"TITLE" : "Image Block", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/ZDT7BiEBVBA`};
+    AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular5);
+
     const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Operation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/1Yq3wIQOPng`};
     AWEBP_FEATURED_ANGULAR_LIST.push(featuredAngular4);
 
