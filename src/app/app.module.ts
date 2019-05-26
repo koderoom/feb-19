@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { AwebpComponent } from './awebp/awebp.component';
 import { JavaComponent } from './java/java.component';
 import { SpringcoreComponent } from './springcore/springcore.component';
+import { ProjectrefComponent } from './projectref/projectref.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SpringcoreComponent } from './springcore/springcore.component';
     AppRoutingComponents,
     AwebpComponent,
     JavaComponent,
-    SpringcoreComponent
+    SpringcoreComponent,
+    ProjectrefComponent
   ],
   imports: [
     BrowserModule,

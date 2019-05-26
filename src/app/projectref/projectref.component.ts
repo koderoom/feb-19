@@ -8,15 +8,15 @@ import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { Router } from '@angular/router';
-import { SpringcoreService } from 'src/app/common/springcore.service';
+import { ProjectrefService } from 'src/app/common/projectref.service';
 
 
 @Component({
-  selector: 'app-springcore',
+  selector: 'app-projectref',
   templateUrl: '../awebp/awebp.component.html',
   styleUrls: ['../awebp/awebp.component.css']
 })
-export class SpringcoreComponent implements OnInit, AfterViewInit {
+export class ProjectrefComponent implements OnInit, AfterViewInit {
 
   public bgRef: any = {};
 
@@ -34,7 +34,7 @@ export class SpringcoreComponent implements OnInit, AfterViewInit {
 
   constructor(
     public appConstatnts: AppConstantsService,
-    public data: SpringcoreService,
+    public data: ProjectrefService,
     public dataexam: DataexamService,
     private router: Router
   ) { }
