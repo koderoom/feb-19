@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'java', component: JavaComponent},
   { path: 'awebp', component: AwebpComponent},
 
-  { path: '', component: AwebpComponent},
+  { path: '',  redirectTo: '/awebp', pathMatch: 'full'},
   { path: 'home', component: AwebpComponent},
 
   { path: 'dacexam', component: DacexamComponent},

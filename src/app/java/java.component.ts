@@ -48,7 +48,12 @@ export class JavaComponent implements OnInit, AfterViewInit {
     this.EXAM_LIST = this.dataexam.EXAM_LIST;
     this.TOPLIST = this.dataexam.B2LIST.concat(this.dataexam.B1LIST);
 
-    
+    this.appConstatnts.SEL_BG_REF_OBJ_AS_OBSERABLE.subscribe( (bgRef) => {
+      setTimeout(() => {
+        this.bgRef = bgRef;
+      }, 10);
+    });
+
     this.appConstatnts.updateSelMenu(this.router.url);
   }
 

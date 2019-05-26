@@ -9,7 +9,7 @@ import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { ExtDataService } from 'src/app/common/ext.data.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
@@ -36,6 +36,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     public appConstatnts: AppConstantsService,
     public data: ExtDataService,
     public dataexam: DataexamService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
@@ -52,6 +53,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
         this.bgRef = bgRef;
       }, 10);
     });
+    
+    this.appConstatnts.updateSelMenu(this.router.url);
   }
 
   public ngAfterViewInit(): void {
