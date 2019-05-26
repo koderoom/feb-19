@@ -17,6 +17,78 @@ export class SpringcoreService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 5
+    const cardDay5 = {
+        "ID" : 5,
+        "TITLE" : "DAY 5",
+        "HEADING" : "Integrate Spring and Angular",
+        "DESC" : `Integrate Spring and Angular`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "12 - Integrating #ANGULAR and #SPRING project using #AJAX", 
+                "YOUTUBE_LINK" : `https://youtu.be/SoiWkKebsYM`,
+            },
+
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Integrate Spring and Angular"},
+        ]
+    };
+    CARD_LIST.push(cardDay5);
+
+    // DAY - 4
+    const cardDay4 = {
+        "ID" : 4,
+        "TITLE" : "DAY 4",
+        "HEADING" : "Import Project From GITHUB in VSCODE",
+        "DESC" : `Import Project From GITHUB in VSCODE`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "10 - How to download and import #spring project from #github in #Eclipse", 
+                "YOUTUBE_LINK" : `https://youtu.be/vichY8pr6n0`,
+            },
+
+            {  
+                "ID":2, "TITLE": "11 - How to download and import #Angular project from #Github in #VSCODE", 
+                "YOUTUBE_LINK" : `https://youtu.be/RLuCnYOxtgo`,
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Clone GITHUB Project in VSCODE."},
+        ]
+    };
+    CARD_LIST.push(cardDay4);
+
+
+    // DAY - 3
+    const cardDay3 = {
+        "ID" : 3,
+        "TITLE" : "DAY 3",
+        "HEADING" : "Spring GET AND POST REST API ",
+        "DESC" : `Spring GET AND POST REST API `,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "8 - Building REST GET API   Basic concept step by step", 
+                "YOUTUBE_LINK" : `https://youtu.be/Yv3swrMsBhA`,
+            },
+
+            {  
+                "ID":2, "TITLE": "9 - Building REST POST API   Basic concept step by step", 
+                "YOUTUBE_LINK" : `https://youtu.be/RhIEsosJumI`,
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Create GET AND POST REST API in Spring"},
+        ]
+    };
+    CARD_LIST.push(cardDay3);
+
 
     // DAY - 2
     const cardDay2 = {
@@ -97,8 +169,14 @@ export class SpringcoreService {
 
 
     /** FEATURE LIST ANGULAR */
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Generate Bill", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RcAT4qAnni0`};
+    const featuredAngular2= { "ID" : 1,"TITLE" : "Project Setup", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/CvST6UshMDs`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular2);
+
+    const featuredAngular1= { "ID" : 1,"TITLE" : "Spring REST API", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/sh7_yuNVkjY`};
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
+
+    const featuredAngular3= { "ID" : 1,"TITLE" : "Spring & Angular", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/SoiWkKebsYM`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular3);
 
 
     this.CARD_LIST = CARD_LIST;
