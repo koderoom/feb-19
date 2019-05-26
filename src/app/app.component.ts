@@ -52,6 +52,11 @@ export class AppComponent implements OnInit, AfterViewInit {
       }, 10);
     });
 
+    this.appConstatnts.SEL_MENU_REF_OBJ_AS_OBSERABLE.subscribe( (selMenu) => {
+      setTimeout(() => {
+        this.selMenu = selMenu;
+      }, 50);
+    });
 
   }
 

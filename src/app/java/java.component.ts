@@ -8,6 +8,7 @@ import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { JavaService } from 'src/app/common/java.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -35,6 +36,7 @@ export class JavaComponent implements OnInit, AfterViewInit {
     public appConstatnts: AppConstantsService,
     public data: JavaService,
     public dataexam: DataexamService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -46,11 +48,8 @@ export class JavaComponent implements OnInit, AfterViewInit {
     this.EXAM_LIST = this.dataexam.EXAM_LIST;
     this.TOPLIST = this.dataexam.B2LIST.concat(this.dataexam.B1LIST);
 
-    this.appConstatnts.SEL_BG_REF_OBJ_AS_OBSERABLE.subscribe( (bgRef) => {
-      setTimeout(() => {
-        this.bgRef = bgRef;
-      }, 10);
-    });
+    
+    this.appConstatnts.updateSelMenu(this.router.url);
   }
 
   public ngAfterViewInit(): void {
