@@ -13,8 +13,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-java',
-  templateUrl: './java.component.html',
-  styleUrls: ['./java.component.css']
+  templateUrl: '../awebp/awebp.component.html',
+  styleUrls: ['../awebp/awebp.component.css']
 })
 export class JavaComponent implements OnInit, AfterViewInit {
 
