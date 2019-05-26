@@ -7,13 +7,15 @@ import { AppRoutingModule, AppRoutingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AwebpComponent } from './awebp/awebp.component';
 import { JavaComponent } from './java/java.component';
+import { SpringcoreComponent } from './springcore/springcore.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppRoutingComponents,
     AwebpComponent,
-    JavaComponent
+    JavaComponent,
+    SpringcoreComponent
   ],
   imports: [
     BrowserModule,
