@@ -6,12 +6,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule, AppRoutingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AwebpComponent } from './awebp/awebp.component';
+import { JavaComponent } from './java/java.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppRoutingComponents,
-    AwebpComponent
+    AwebpComponent,
+    JavaComponent
   ],
   imports: [
     BrowserModule,

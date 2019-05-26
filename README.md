@@ -7,10 +7,12 @@
 
 # GENERATE COMPOENENT
 * `ng g c awebp --skipTests=true`
+* `ng g c java --skipTests=true`
 
 
 # GENERATE SERVICE
 * `ng generate service common/awebp --skipTests=true`
+* `ng generate service common/java --skipTests=true`
 
 
 # ANGULAR ECLIPSEE

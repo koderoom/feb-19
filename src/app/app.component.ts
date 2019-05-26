@@ -5,6 +5,7 @@ import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 import 'bootstrap';
 import * as $ from 'jquery';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -30,6 +31,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   public constructor(
     public appConstatnts: AppConstantsService,
+    public route: Router
   ) {}
 
   public ngOnInit(): void {
@@ -74,14 +76,9 @@ export class AppComponent implements OnInit, AfterViewInit {
 
 
   public toggleMenu(item, refel): void {
-    // this.selMenu = item;
-
-    if(item.MENU === 'awebp') {
-      
-    } else {
-      
-    }
-
+    
     this.toggleDropdown(refel);
+
+    this.route.navigate([item.routerLink]);
   }
 }

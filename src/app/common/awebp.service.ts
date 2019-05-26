@@ -368,7 +368,7 @@ export class AwebpService extends DataService {
         "SHOW" : true,
         "DEMO_LINK" : `${BASE_URL_DEMO}/day8/chat.html`
     };
-    CARD_LIST.push(featured1);
+    FEATURED_LIST.push(featured1);
 
 
     /** FEATURE LIST ANGULAR */

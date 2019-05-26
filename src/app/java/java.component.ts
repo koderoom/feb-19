@@ -7,15 +7,15 @@ import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import { AwebpService } from 'src/app/common/awebp.service';
+import { JavaService } from 'src/app/common/java.service';
 
 
 @Component({
-  selector: 'app-awebp',
-  templateUrl: './awebp.component.html',
-  styleUrls: ['./awebp.component.css']
+  selector: 'app-java',
+  templateUrl: './java.component.html',
+  styleUrls: ['./java.component.css']
 })
-export class AwebpComponent implements OnInit, AfterViewInit {
+export class JavaComponent implements OnInit, AfterViewInit {
 
   public bgRef: any = {};
 
@@ -33,7 +33,7 @@ export class AwebpComponent implements OnInit, AfterViewInit {
 
   constructor(
     public appConstatnts: AppConstantsService,
-    public data: AwebpService,
+    public data: JavaService,
     public dataexam: DataexamService,
   ) { }
 

@@ -18,8 +18,8 @@ export class AppConstantsService {
 
     
     MENU_LIST: any[] = [
-      {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP"},
-      {"ID":1, "MENU": "java", "DISPLAY":"JAVA"},
+      {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP", "routerLink": "awebp"},
+      {"ID":1, "MENU": "java", "DISPLAY":"JAVA", "routerLink": "java" },
     ]; 
 
     private SEL_BG_REF_OBJ = this.BG_LIST[0];
