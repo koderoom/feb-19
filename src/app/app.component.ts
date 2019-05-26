@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   public selMenu:any;
 
   // Background 
-  public randomIndex = Math.floor((Math.random() * 4));
+  public randomIndex = Math.floor((Math.random() * 6));
   public bgRef: any = {};
   public bgList:any;
   
