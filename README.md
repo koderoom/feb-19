@@ -8,6 +8,11 @@
 # GENERATE COMPOENENT
 * `ng g c awebp --skipTests=true`
 
+
+# GENERATE SERVICE
+* `ng generate service common/awebp --skipTests=true`
+
+
 # ANGULAR ECLIPSEE
 ```
     ng build --delete-output-path=false --output-path=.. --base-href "/test" --deploy-url "/test/"
