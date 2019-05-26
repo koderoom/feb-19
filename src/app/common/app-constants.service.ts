@@ -30,4 +30,18 @@ export class AppConstantsService {
     public updateSelBgRef(item): void {
       this.SEL_BG_REF_OBJ_SOURCE.next(item);
     }
+
+    public toggleCollapse(refel, demoRef) {
+      if(demoRef.YOUTUBE_LINK) {
+        const dataId = refel.getAttribute('data-id');
+        $('#' + dataId).collapse('toggle');
+  
+        const youcode = demoRef.YOUTUBE_LINK.replace('https://youtu.be/', '');
+        const sret = 'https://www.youtube.com/embed/' + youcode;
+  
+        $('#' + dataId).children()[0].innerHTML = `
+              <iframe class="embed-responsive-item" src="${sret}" allowfullscreen></iframe>
+            `;
+      }
+    }
 }
