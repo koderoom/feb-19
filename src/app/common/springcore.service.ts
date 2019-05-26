@@ -100,7 +100,7 @@ export class SpringcoreService {
         "DEMO_LIST" : [
             {  
                 "ID":1, "TITLE": "4 - Configuration file web xml and spring servlet xml    How to update config files for spring mvc", 
-                "YOUTUBE_LINK" : `https://youtu.be/CvST6UshMDs`,
+                "YOUTUBE_LINK" : `https://youtu.be/M_XfUgFwNR8`,
             },
 
             {  
@@ -115,7 +115,7 @@ export class SpringcoreService {
 
             {  
                 "ID":4, "TITLE": "7 - Resolve View in MVC using RestController Annotation", 
-                "YOUTUBE_LINK" : `https://youtu.be/M_XfUgFwNR8`,
+                "YOUTUBE_LINK" : `https://youtu.be/ir2As0H-5RA`,
             }
         ],
 
