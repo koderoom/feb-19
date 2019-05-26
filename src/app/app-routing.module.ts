@@ -5,8 +5,8 @@ import { DacexamComponent } from './dacexam/dacexam.component';
 import { AwebpComponent } from 'src/app/awebp/awebp.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
-  { path: 'home', component: HomeComponent},
+  { path: '', component: AwebpComponent},
+  { path: 'home', component: AwebpComponent},
   { path: 'awebp', component: AwebpComponent},
   { path: 'dacexam', component: DacexamComponent},
 ];
