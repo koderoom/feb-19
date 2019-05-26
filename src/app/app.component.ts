@@ -51,6 +51,8 @@ export class AppComponent implements OnInit, AfterViewInit {
         this.bgRef = bgRef;
       }, 10);
     });
+
+
   }
 
   public ngAfterViewInit() {
@@ -76,9 +78,13 @@ export class AppComponent implements OnInit, AfterViewInit {
 
 
   public toggleMenu(item, refel): void {
-    
+    // DISPLAY MENU
+    this.selMenu = item;
+
+    // Toggle dropdown 
     this.toggleDropdown(refel);
 
+    // Navigate to next menu
     this.route.navigate([item.routerLink]);
   }
 }
