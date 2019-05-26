@@ -14,7 +14,7 @@ import * as $ from 'jquery';
 export class AppComponent implements OnInit, AfterViewInit {
   
   // App title
-  public title = 'Aug18Home';
+  public title: string;
   
   // Menu
   public menuList: any;

@@ -72,8 +72,4 @@ export class HomeComponent implements OnInit, AfterViewInit {
     }
   }
 
-  public toggleAssignment(item): void {
-      item.showAssignment = !item.showAssignment;
-  } 
-
 }
