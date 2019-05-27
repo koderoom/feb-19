@@ -49,7 +49,7 @@ export class AwebpService extends DataService {
                 "YOUTUBE_LINK": `https://youtu.be/mM2SF3SgyiI`
             },
             {  
-                "ID":5, "TITLE": "6.5 How to use #bootstrap and #fontawsome css installed using NPM?", 
+                "ID":5, "TITLE": "6.5 How to use #bootstrap and #fontawesome css installed using NPM?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
                 "YOUTUBE_LINK": `https://youtu.be/sXclxxCjG_A`
