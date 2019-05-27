@@ -21,6 +21,63 @@ export class AwebpService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 6
+    const cardDay6 = {
+        "ID" : 6,
+        "TITLE" : "Day 6",
+        "HEADING" : "NODEJS, NPM Fundatemental",
+        "DESC" : `NODEJS, NPM Fundatemental`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "Adding Like, Subscribe and Comment option for each block. (Adding icons with button)", 
+                "YOUTUBE_LINK": `https://youtu.be/njeoystjCqo`
+            },
+
+            {  
+                "ID":2, "TITLE": "Part 2 - Post Preview and add dynamic block of Video using Javascript.", 
+                "YOUTUBE_LINK": `https://youtu.be/kMLkQetzxgA`
+            },
+
+            {  
+                "ID":3, "TITLE": "Part 1 - Post and Preview Video block UI Simulation.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/Oc6dlujaI5w`
+            },
+
+            {  
+                "ID":4, "TITLE": "Part 2 - Post Preview and add dynamic block of image using Javascript.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/mM2SF3SgyiI`
+            },
+            {  
+                "ID":5, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/sXclxxCjG_A`
+            },
+            {  
+                "ID":6, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/q1Ck1UUlMWo`
+            },
+            {  
+                "ID":7, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/X1pFgCJgtgU`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Install NodeJS and make your project NodeJS aware."},
+        ]
+    };
+    CARD_LIST.push(cardDay6);
+
     // DAY - 4
     const cardDay5 = {
         "ID" : 5,
