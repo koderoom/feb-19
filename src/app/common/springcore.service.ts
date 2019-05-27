@@ -51,11 +51,13 @@ export class SpringcoreService {
             {  
                 "ID":1, "TITLE": "10 - How to download and import #spring project from #github in #Eclipse", 
                 "YOUTUBE_LINK" : `https://youtu.be/vichY8pr6n0`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring"
             },
 
             {  
                 "ID":2, "TITLE": "11 - How to download and import #Angular project from #Github in #VSCODE", 
                 "YOUTUBE_LINK" : `https://youtu.be/RLuCnYOxtgo`,
+                "SOURCE_LINK" : "https://github.com/koderoom/angular-ajax-client"
             },
         ],
 
