@@ -30,44 +30,38 @@ export class AwebpService extends DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Adding Like, Subscribe and Comment option for each block. (Adding icons with button)", 
+                "ID":1, "TITLE": "6.1 How to install and setup NodeJS?", 
                 "YOUTUBE_LINK": `https://youtu.be/njeoystjCqo`
             },
 
             {  
-                "ID":2, "TITLE": "Part 2 - Post Preview and add dynamic block of Video using Javascript.", 
+                "ID":2, "TITLE": "6.2 How to setup nodejs and web project using NPM?", 
                 "YOUTUBE_LINK": `https://youtu.be/kMLkQetzxgA`
             },
 
             {  
-                "ID":3, "TITLE": "Part 1 - Post and Preview Video block UI Simulation.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "ID":3, "TITLE": "6.3 How to install module/package using NPM. [Install bootstrap and lite-server]", 
                 "YOUTUBE_LINK": `https://youtu.be/Oc6dlujaI5w`
             },
 
             {  
-                "ID":4, "TITLE": "Part 2 - Post Preview and add dynamic block of image using Javascript.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "ID":4, "TITLE": "6.4 How to configure, start and access #lite-server for web project?", 
                 "YOUTUBE_LINK": `https://youtu.be/mM2SF3SgyiI`
             },
             {  
-                "ID":5, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "ID":5, "TITLE": "6.5 How to use #bootstrap and #fontawsome css installed using NPM?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
                 "YOUTUBE_LINK": `https://youtu.be/sXclxxCjG_A`
             },
             {  
-                "ID":6, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "ID":6, "TITLE": "6.6 JSON handson session", 
                 "YOUTUBE_LINK": `https://youtu.be/q1Ck1UUlMWo`
             },
             {  
-                "ID":7, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "ID":7, "TITLE": "6.7 Implement like and subscribe, make it interactive using client side #javascript for each dynamic post.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
                 "YOUTUBE_LINK": `https://youtu.be/X1pFgCJgtgU`
             },
         ],
