@@ -28,6 +28,8 @@ export class SpringcoreService {
             {  
                 "ID":1, "TITLE": "12 - Integrating #ANGULAR and #SPRING project using #AJAX", 
                 "YOUTUBE_LINK" : `https://youtu.be/SoiWkKebsYM`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/src/com/spring/HelloSpring.java",
+                "SOURCE_LINK1" : "https://github.com/koderoom/angular-ajax-client"
             },
 
         ],
@@ -75,11 +77,13 @@ export class SpringcoreService {
             {  
                 "ID":1, "TITLE": "8 - Building REST GET API   Basic concept step by step", 
                 "YOUTUBE_LINK" : `https://youtu.be/Yv3swrMsBhA`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/src/com/spring/HelloSpring.java"
             },
 
             {  
                 "ID":2, "TITLE": "9 - Building REST POST API   Basic concept step by step", 
                 "YOUTUBE_LINK" : `https://youtu.be/RhIEsosJumI`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/src/com/spring/HelloSpring.java"
             },
         ],
 
@@ -101,21 +105,25 @@ export class SpringcoreService {
             {  
                 "ID":1, "TITLE": "4 - Configuration file web xml and spring servlet xml    How to update config files for spring mvc", 
                 "YOUTUBE_LINK" : `https://youtu.be/M_XfUgFwNR8`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/WebContent/WEB-INF/web.xml"
             },
 
             {  
                 "ID":2, "TITLE": "5 - Spring configuration update   Add annotation support in spring servlet xml", 
                 "YOUTUBE_LINK" : `https://youtu.be/7fgXfLF1wfI`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/WebContent/WEB-INF/spring-servlet.xml"
             },
 
             {  
                 "ID":3, "TITLE": "6 - Write and run first #Spring #REST API   Hello Spring REST API", 
                 "YOUTUBE_LINK" : `https://youtu.be/sh7_yuNVkjY`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/src/com/spring/HelloSpring.java"
             },
 
             {  
                 "ID":4, "TITLE": "7 - Resolve View in MVC using RestController Annotation", 
                 "YOUTUBE_LINK" : `https://youtu.be/ir2As0H-5RA`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/src/com/spring/HelloSpring.java"
             }
         ],
 
@@ -137,16 +145,19 @@ export class SpringcoreService {
             {  
                 "ID":1, "TITLE": "1 - Create and Run #DynamicWebProject in #Eclipse using #tomcat", 
                 "YOUTUBE_LINK" : `https://youtu.be/CvST6UshMDs`,
+                "SOURCE_LINK" : `https://github.com/koderoom/augspring/tree/master/demoapp`
             },
 
             {  
                 "ID":2, "TITLE": "2 - Convert #DynamicWebProject to #Maven Project and Add #Spring core dependencies in #Eclipse", 
                 "YOUTUBE_LINK" : `https://youtu.be/jkVN83Mp82o`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/pom.xml"
             },
 
             {  
                 "ID":3, "TITLE": "3 - Add Spring MVC dependencies using maven in eclipse", 
                 "YOUTUBE_LINK" : `https://youtu.be/n8yieV9-A5o`,
+                "SOURCE_LINK" : "https://github.com/koderoom/augspring/blob/master/demoapp/pom.xml"
             }
         ],
 

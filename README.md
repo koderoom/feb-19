@@ -23,3 +23,6 @@
 ```
     ng build --delete-output-path=false --output-path=.. --base-href "/test" --deploy-url "/test/"
 ```
+
+
+node_modules\.bin\lite-server
