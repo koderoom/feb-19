@@ -30,56 +30,73 @@ export class AwebpService extends DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "7.1 How to install and setup NodeJS?", 
-                "YOUTUBE_LINK": `https://youtu.be/_VKZrvaw6Dc`
+                "ID":1, "TITLE": "7.1 Fundamentals of ES6. How to compile and run ES6 program in console?", 
+                "YOUTUBE_LINK": `https://youtu.be/_VKZrvaw6Dc`,
+                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/main.js`,
             },
 
             {  
-                "ID":2, "TITLE": "7.2 How to setup nodejs and web project using NPM?", 
-                "YOUTUBE_LINK": `https://youtu.be/j5MartizMvY`
+                "ID":2, "TITLE": "7.2 How to import and export modules in ES6?", 
+                "YOUTUBE_LINK": `https://youtu.be/j5MartizMvY`,
+                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/main.js`,
             },
 
             {  
-                "ID":3, "TITLE": "7.3 How to install module/package using NPM. [Install bootstrap and lite-server]", 
-                "YOUTUBE_LINK": `https://youtu.be/kbSf2OSVPso`
+                "ID":3, "TITLE": "7.3 Fundamentals of TypeScript. How to compile and run #typescript program in console?", 
+                "YOUTUBE_LINK": `https://youtu.be/kbSf2OSVPso`,
+                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/ts/main.ts`,
             },
 
             {  
-                "ID":4, "TITLE": "7.4 How to configure, start and access #lite-server for web project?", 
+                "ID":4, "TITLE": "7.4 Hello Angular. How to #setup #first #Angular project.", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
                 "YOUTUBE_LINK": `https://youtu.be/RD7EzEauMd8`
             },
             {  
-                "ID":5, "TITLE": "7.5 How to use #bootstrap and #fontawesome css installed using NPM?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
+                "ID":5, "TITLE": "7.5 Fundamentals of #Angular #Project Folder Structure.", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
                 "YOUTUBE_LINK": `https://youtu.be/LpzQ5-2JYwU`
             },
             {  
-                "ID":6, "TITLE": "7.6 JSON handson session", 
+                "ID":6, "TITLE": "7.6 Data Binding in Angular using #interpolation", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
                 "YOUTUBE_LINK": `https://youtu.be/lkY_g_82o_I`
             },
             {  
-                "ID":7, "TITLE": "7.7 Implement like and subscribe, make it interactive using client side #javascript for each dynamic post.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
+                "ID":7, "TITLE": "7.7 Let's Implement Simple Counter in Angular, using Data Binding. (Interpolation and View to Controller.)", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
                 "YOUTUBE_LINK": `https://youtu.be/V2OchF-3i3k`
             },
             {  
-                "ID":8, "TITLE": "7.8 JSON handson session", 
+                "ID":8, "TITLE": "7.8 Basics of App Module in #Angular",
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
                 "YOUTUBE_LINK": `https://youtu.be/Y_IZCcF3Y3A`
             },
             {  
-                "ID":9, "TITLE": "7.9 JSON handson session", 
+                "ID":9, "TITLE": "7.9 Bi-Directional Data Binding in #Angular.", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
                 "YOUTUBE_LINK": `https://youtu.be/XVRiZ5Zjk7g`
             },
             {  
-                "ID":10, "TITLE": "7.10 JSON handson session", 
+                "ID":10, "TITLE": "7.10 Integrate #bootstrap in #angular", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
                 "YOUTUBE_LINK": `https://youtu.be/a-UacGK1hDA`
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Install NodeJS and make your project NodeJS aware."},
+            {"ID":1, "TITLE": "Compile And Run ES6 program"},
+            {"ID":2, "TITLE": "Compile And Run TS program"},
+            {"ID":3, "TITLE": "Setup Angular Project"},
+            {"ID":4, "TITLE": "Practice Data Binding"},
+            {"ID":5, "TITLE": "Integrate Bootstrap into project"},
         ]
     };
     CARD_LIST.push(cardDay7);
