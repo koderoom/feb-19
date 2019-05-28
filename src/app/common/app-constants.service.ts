@@ -22,7 +22,7 @@ export class AppConstantsService {
       {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP", "routerLink": "awebp"},
       {"ID":1, "MENU": "java", "DISPLAY":"JAVA", "routerLink": "java" },
       {"ID":3, "MENU": "springcore", "DISPLAY":"SPRING", "routerLink": "springcore" },
-      // {"ID":4, "MENU": "projectref", "DISPLAY":"PROJECT", "routerLink": "projectref" },
+      {"ID":4, "MENU": "projectref", "DISPLAY":"PROJECT", "routerLink": "projectref" },
     ]; 
 
     private SEL_BG_REF_OBJ = this.BG_LIST[0];
