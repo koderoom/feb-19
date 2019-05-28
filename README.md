@@ -1,4 +1,4 @@
-# Aug Homee
+# BUILD COMMAND
 
 ```
     ng build --prod --base-href "https://koderoom.github.io/feb-19/"
