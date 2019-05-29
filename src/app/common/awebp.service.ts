@@ -21,6 +21,43 @@ export class AwebpService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 8
+    const cardDay8 = {
+        "ID" : 8,
+        "TITLE" : "Day 8",
+        "HEADING" : "Live Coding with #Angular, #Bootstrap",
+        "DESC" : `Live Coding with #Angular, #Bootstrap`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":3, "TITLE": "#Live Coding, #Facebook Feature #Simulation in #Angular and #Bootstrap", 
+                "SOURCE_LINK" : `https://github.com/koderoom/kodebook`,
+                "DEMO_LINK" : `https://koderoom.github.io/kodebook/`, 
+                "YOUTUBE_LINK": `https://youtu.be/Qq88kYlnY7Q`
+            },
+
+            {  
+                "ID":1, "TITLE": "How to use *ngFor and *ngIf in #Angular?", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
+                "YOUTUBE_LINK": `https://youtu.be/8vHD2OOfgFU`
+            },
+
+            {  
+                "ID":2, "TITLE": "Working with List of #UserDefine Class in #Angular", 
+                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
+                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
+                "YOUTUBE_LINK": `https://youtu.be/G-i-5qqdCNE`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Apply loop and codition directive Angular."},
+        ]
+    };
+    CARD_LIST.push(cardDay8);
+
+
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
