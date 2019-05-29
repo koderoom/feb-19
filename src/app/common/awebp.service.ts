@@ -29,12 +29,12 @@ export class AwebpService extends DataService {
         "DESC" : `Live Coding with #Angular, #Bootstrap`,
 
         "DEMO_LIST" : [
-            {  
+            /*{  
                 "ID":3, "TITLE": "#Live Coding, #Facebook Feature #Simulation in #Angular and #Bootstrap", 
                 "SOURCE_LINK" : `https://github.com/koderoom/kodebook`,
                 "DEMO_LINK" : `https://koderoom.github.io/kodebook/`, 
                 "YOUTUBE_LINK": `https://youtu.be/Qq88kYlnY7Q`
-            },
+            },*/
 
             {  
                 "ID":1, "TITLE": "How to use *ngFor and *ngIf in #Angular?", 
