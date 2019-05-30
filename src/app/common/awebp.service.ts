@@ -20,6 +20,27 @@ export class AwebpService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 8
+    const cardDay9 = {
+        "ID" : 9,
+        "TITLE" : "Day 9",
+        "HEADING" : "Bootstrap Responsive",
+        "DESC" : `Bootstrap and Responsive`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":3, "TITLE": "How to make #web #application #responsive using #bootstrap?", 
+                "SOURCE_LINK" : `https://github.com/koderoom/kodebook`,
+                "DEMO_LINK" : `https://koderoom.github.io/kodebook/`, 
+                "YOUTUBE_LINK": `https://youtu.be/qyPFqiM7vlA`
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Make application responsive using bootstrap."},
+        ]
+    };
+    CARD_LIST.push(cardDay9);
 
     // DAY - 8
     const cardDay8 = {
